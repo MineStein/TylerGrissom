@@ -126,8 +126,8 @@
           </div>
 
           <div class="col m4" style="margin-top: 10px;">
-            <a href="http://twitter.com/grisstyl" class="btn blue z-depth-2" style="text-transform: none;">Twitter</a><br><br>
-            <a href="http://snapchat.com/add/tylerrulesall" class="btn yellow darken-1 z-depth-2" style="text-transform: none;">Snapchat</a>
+            <a href="http://twitter.com/grisstyl" class="btn blue z-depth-2 no-text-transform">Twitter</a><br><br>
+            <a href="http://snapchat.com/add/tylerrulesall" class="btn yellow darken-1 z-depth-2 no-text-transform">Snapchat</a>
           </div>
         </div>
     </div>
