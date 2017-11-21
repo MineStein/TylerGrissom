@@ -6,12 +6,13 @@
 
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" type="text/css" href="assets/style/css/materialize.css">
-    <link rel="stylesheet" type="text/css" href="assets/style/css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" type="text/css" href="assets/style/css/style.css">
 
     <script rel="script" type="text/javascript" src="assets/script/jquery-3.2.1.min.js"></script>
     <script rel="script" type="text/javascript" src="assets/script/materialize.min.js"></script>
     <script rel="script" type="text/javascript" src="assets/script/global.js"></script>
+    <script rel="script" type="text/javascript" src='https://www.google.com/recaptcha/api.js'></script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -20,7 +21,7 @@
 
 <body>
 
-<div class="navbar-fixed">
+<div class="navbar">
     <nav class="cyan darken-2">
         <div class="container">
             <div class="nav-wrapper">
@@ -31,7 +32,6 @@
                     <li><a href="#" onclick="scrollToElement('section-about-me');">About Me</a></li>
                     <li><a href="#" onclick="scrollToElement('section-services');">Services</a></li>
                     <li><a href="portfolio.php">Portfolio</a></li>
-                    <li><a href="blog.php">Blog</a></li>
                     <li><a href="#" onclick="scrollToElement('section-contact');">Contact</a></li>
                 </ul>
                 <ul class="side-nav cyan darken-2" id="mobile-navbar">
@@ -39,7 +39,6 @@
                     <li><a href="about.php" class="white-text" onclick="scrollToElement('section-about-me');">About Me</a></li>
                     <li><a href="services.php" class="white-text" onclick="scrollToElement('section-services');">Services</a></li>
                     <li><a href="portfolio.php" class="white-text">Portfolio</a></li>
-                    <li><a href="blog.php" class="white-text">Blog</a></li>
                     <li><a href="contact.php" class="white-text" onclick="scrollToElement('section-contact');">Contact</a></li>
                 </ul>
             </div>
@@ -84,6 +83,8 @@
         <h2 class="header">Services</h2>
         <div class="divider"></div>
 
+        <p>Want to buy one of these? Drop me a line <a href="#" onclick="scrollToElement('section-contact');">here</a>.</p>
+
         <div class="col s12 m4">
           <div class="card orange darken-1 white-text">
             <div class="card-content">
@@ -116,18 +117,73 @@
 
 <div class="section white" id="section-contact">
     <div class="row container">
+        <div class="card red white-text" id="error-box">
+            <div class="card-content">
+                <p>Uh oh!</p>
+            </div>
+        </div>
+
         <h2 class="header">Contact</h2>
         <div class="divider"></div>
         <div class="row">
           <div class="col s12 m8">
-            <p>
-              I am a very avid user of social media, however you can also get in contact with me at <a href="mailto:grisstyl@gmail.com">this email</a>
-            </p>
+              <form id="form-contact" method="post" action="assets/secret/send-contact.php" style="margin-top: 10px;">
+                  <div class="row">
+                      <div class="input-field col s6">
+                          <input placeholder="John" name="first_name" id="first_name" type="text" class="validate">
+                          <label for="first_name">First Name</label>
+                      </div>
+                      <div class="input-field col s6">
+                          <input placeholder="Doe" id="last_name" name="last_name" type="text" class="validate">
+                          <label for="last_name">Last Name</label>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="input-field col s12">
+                          <input placeholder="john.doe@example.com" id="email" type="email" class="validate">
+                          <label for="email">Email</label>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="input-field col s12">
+                          <select id="need">
+                              <option value="choose" disabled selected>Choose an option</option>
+                              <optgroup label="Service Estimate">
+                                  <option value="service-plugin">Minecraft Server Plugin</option>
+                                  <option value="service-website">Website</option>
+                                  <option value="service-other">Other Project</option>
+                              </optgroup>
+                              <optgroup label="Other">
+                                  <option value="other-partnership">Partnership</option>
+                                  <option value="other-offer">Offer</option>
+                                  <option value="other-inquiry">General Inquiry</option>
+                              </optgroup>
+                          </select>
+                          <label for="need">What do you need?</label>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="input-field col s12">
+                          <textarea placeholder="Describe what you need in as much detail as possible." id="description" name="description" class="materialize-textarea"></textarea>
+                          <label for="description">Description</label>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col s6 g-recaptcha" data-sitekey="6Ld3fzkUAAAAAMtobohuy_-dMRWnWq5tWv_9-50-"></div>
+                      <div class="col s6">
+                          <button type="submit" class="btn blue">Send</button>
+                      </div>
+                  </div>
+              </form>
           </div>
 
           <div class="col m4" style="margin-top: 10px;">
-            <a href="http://twitter.com/grisstyl" class="btn blue z-depth-2 no-text-transform">Twitter</a><br><br>
-            <a href="http://snapchat.com/add/tylerrulesall" class="btn yellow darken-1 z-depth-2 no-text-transform">Snapchat</a>
+              <h4>Social</h4>
+              <div class="divider"></div><br>
+              <a href="http://twitter.com/grisstyl" class="btn blue z-depth-2 no-text-transform social-button tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="@grisstyl">Twitter</a><br><br>
+              <a href="#" class="btn deep-purple lighten-1 z-depth-2 no-text-transform tooltipped" data-position="right" data-delay="50" data-tooltip="Tyler#6978" onclick="return false">Discord</a><br><br>
+              <a href="http://snapchat.com/add/tylerrulesall" target="_blank" class="btn yellow darken-1 z-depth-2 no-text-transform tooltipped" data-position="right" data-delay="50" data-tooltip="tylerrulesall">Snapchat</a><br><br>
+              <a href="https://github.com/MineStein" class="btn grey z-depth-2 no-text-transform tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="MineStein">GitHub</a>
           </div>
         </div>
     </div>
@@ -173,19 +229,81 @@
 
 <script>
     function scrollToElement(elementId) {
-        $('html, body').animate({
+        $("html, body").animate({
             scrollTop: $("#" + elementId).offset().top
         }, 250);
+    }
+
+    function isErrorBoxVisible() {
+        var errorBox = $("#error-box");
+
+        return errorBox.is(":visible");
+    }
+
+    function shakeErrorBox() {
+        var errorBox = $("#error-box");
+
+        if (!isErrorBoxVisible()) {
+            errorBox.fadeIn();
+        }
+
+        errorBox.addClass('animated shake');
+
+        setTimeout(function() {
+            errorBox.removeClass('animated shake');
+        }, 1500);
+    }
+
+    function showErrorBox() {
+        var errorBox = $("#error-box");
+
+        errorBox.show();
+    }
+
+    function hideErrorBox() {
+        var errorBox = $("#error-box");
+
+        errorBox.hide();
     }
 
     $(function() {
         $(".parallax").parallax();
         $(".tooltipped").tooltip({delay: 50});
         $(".modal").modal();
+        $('select').material_select();
+
+        var errorBox = $("#error-box");
+
+        errorBox.hide();
+
+        var contactForm = $("#form-contact");
+
+        contactForm.on('submit', function(e) {
+            e.preventDefault();
+
+            var firstName = $("#first_name").val().trim();
+            var lastName = $("#last_name").val().trim();
+            var email = $("#email").val().trim();
+            var description = $("#description").val().trim();
+            var need = $("#need").val();
+
+            if (firstName === "" ||
+                lastName === "" ||
+                email === "" ||
+                description === "" ||
+                need === "choose") {
+
+                shakeErrorBox();
+            }
+
+            $.ajax({
+
+            });
+        });
     });
 
-    $("#menu").click(function (e) {
-        $(".tap-target").tapTarget('open');
+    $("#menu").click(function () {
+        $(".tap-target").tapTarget("open");
     });
 </script>
 
