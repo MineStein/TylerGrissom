@@ -31,15 +31,15 @@
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="#" onclick="scrollToElement('section-about-me');">About Me</a></li>
                     <li><a href="#" onclick="scrollToElement('section-services');">Services</a></li>
-                    <li><a href="portfolio.php">Portfolio</a></li>
+                    <li><a href="#" onclick="scrollToElement('section-portfolio');">Portfolio</a></li>
                     <li><a href="#" onclick="scrollToElement('section-contact');">Contact</a></li>
                 </ul>
                 <ul class="side-nav cyan darken-2" id="mobile-navbar">
                     <li class="active"><a href="#" class="white-text">Home</a></li>
-                    <li><a href="about.php" class="white-text" onclick="scrollToElement('section-about-me');">About Me</a></li>
-                    <li><a href="services.php" class="white-text" onclick="scrollToElement('section-services');">Services</a></li>
-                    <li><a href="portfolio.php" class="white-text">Portfolio</a></li>
-                    <li><a href="contact.php" class="white-text" onclick="scrollToElement('section-contact');">Contact</a></li>
+                    <li><a href="#" class="white-text" onclick="scrollToElement('section-about-me');">About Me</a></li>
+                    <li><a href="#" class="white-text" onclick="scrollToElement('section-services');">Services</a></li>
+                    <li><a href="#" class="white-text" onclick="scrollToElement('section-portfolio');">Portfolio</a></li>
+                    <li><a href="#" class="white-text" onclick="scrollToElement('section-contact');">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -64,9 +64,8 @@
                       <br><div class="divider cyan darken-2" style="width: 60%;"></div><br style="line-height: 50%">
                       Besides my experience with computers, I have a miniature schnauzer named Maggie and a younger brother named Kaiden. I attend Hartford Union High
                       School where I am currently a sophomore taking some very interesting classes, some of which include Astronomy and Web Design & Development. I love
-                      hanging out with my friends and going out, along with working a part-time position busing tables, and side-projects related to computers.
-                  </p>
-              </div>
+                      hanging out with my friends and going out and side-projects related to computers.
+                  </div>
           </div>
       </div>
     </div>
@@ -111,7 +110,20 @@
 
 <div class="parallax-container">
     <div class="parallax">
-        <img src="assets/image/huhs.jpg" alt="Hartford Union High School">
+        <img src="assets/image/java-code.png" alt="CSS Code">
+    </div>
+</div>
+
+<div class="section white" id="section-portfolio">
+    <div class="row container">
+        <h2 class="header">Portfolio</h2>
+        <div class="divider"></div>
+    </div>
+</div>
+
+<div class="parallax-container">
+    <div class="parallax">
+        <img src="assets/image/css-code.png" alt="CSS Code">
     </div>
 </div>
 
@@ -178,12 +190,13 @@
           </div>
 
           <div class="col m4" style="margin-top: 10px;">
-              <h4>Social</h4>
+              <h4>Other</h4>
               <div class="divider"></div><br>
               <a href="http://twitter.com/grisstyl" class="btn blue z-depth-2 no-text-transform social-button tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="@grisstyl">Twitter</a><br><br>
               <a href="#" class="btn deep-purple lighten-1 z-depth-2 no-text-transform tooltipped" data-position="right" data-delay="50" data-tooltip="Tyler#6978" onclick="return false">Discord</a><br><br>
               <a href="http://snapchat.com/add/tylerrulesall" target="_blank" class="btn yellow darken-1 z-depth-2 no-text-transform tooltipped" data-position="right" data-delay="50" data-tooltip="tylerrulesall">Snapchat</a><br><br>
-              <a href="https://github.com/MineStein" class="btn grey z-depth-2 no-text-transform tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="MineStein">GitHub</a>
+              <a href="https://github.com/MineStein" class="btn grey z-depth-2 no-text-transform tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="MineStein">GitHub</a><br><br>
+              <a href="https://www.spigotmc.org/members/minestein.21431/" class="btn orange z-depth-2 no-text-transform tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="MineStein">SpigotMC</a>
           </div>
         </div>
     </div>
