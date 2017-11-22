@@ -155,7 +155,7 @@
                               </optgroup>
                               <optgroup label="Other">
                                   <option value="other-partnership">Partnership</option>
-                                  <option value="other-offer">Offer</option>
+                                  <option value="other-offer">Job Offer</option>
                                   <option value="other-inquiry">General Inquiry</option>
                               </optgroup>
                           </select>
@@ -171,7 +171,7 @@
                   <div class="row">
                       <div class="col s6 g-recaptcha" data-sitekey="6Ld3fzkUAAAAAMtobohuy_-dMRWnWq5tWv_9-50-"></div>
                       <div class="col s6">
-                          <button type="submit" class="btn blue">Send</button>
+                          <button id="form-submit" type="submit" class="btn blue">Send</button>
                       </div>
                   </div>
               </form>
@@ -240,8 +240,10 @@
         return errorBox.is(":visible");
     }
 
-    function shakeErrorBox() {
+    function shakeErrorBox(content, callback) {
         var errorBox = $("#error-box");
+
+        changeErrorBox(content);
 
         if (!isErrorBoxVisible()) {
             errorBox.fadeIn();
@@ -251,7 +253,15 @@
 
         setTimeout(function() {
             errorBox.removeClass('animated shake');
+
+            callback();
         }, 1500);
+    }
+
+    function changeErrorBox(content) {
+        var errorBoxContent = $("#error-box").find("p");
+
+        errorBoxContent.text(content);
     }
 
     function showErrorBox() {
@@ -277,9 +287,12 @@
         errorBox.hide();
 
         var contactForm = $("#form-contact");
+        var formSubmit = $("#form-submit");
 
-        contactForm.on('submit', function(e) {
+        contactForm.on("submit", function(e) {
             e.preventDefault();
+
+            formSubmit.prop("disabled", true);
 
             var firstName = $("#first_name").val().trim();
             var lastName = $("#last_name").val().trim();
@@ -293,11 +306,62 @@
                 description === "" ||
                 need === "choose") {
 
-                shakeErrorBox();
+                shakeErrorBox("Please complete all fields.", function() {
+                    formSubmit.prop("disabled", false);
+                });
+
+                return;
+            }
+
+            if (grecaptcha.getResponse().length === 0) {
+                shakeErrorBox("Please verify you are a human.", function() {
+                    formSubmit.prop("disabled", false);
+                });
+
+                return;
             }
 
             $.ajax({
+                type: 'post',
+                url: 'assets/secret/send-contact.php',
+                data: {
+                    first_name: firstName,
+                    last_name: lastName,
+                    email: email,
+                    need: need,
+                    description: description,
+                    captcha: grecaptcha.getResponse()
+                },
+                success: function(data) {
+                    if (data === "1") {
+                        shakeErrorBox("Could not verify humanity! Beep boop.", function() {
+                            formSubmit.prop("disabled", false);
+                        });
+                    } else if (data === "2") {
+                        shakeErrorBox("Your specified email is not valid.", function() {
+                            formSubmit.prop("disabled", false);
+                        });
+                    } else if (data === "3") {
+                        shakeErrorBox("An error with what you need processing has occurred. This should not happen...", function() {
+                            formSubmit.prop("disabled", false);
+                        });
+                    } else if (data === "4") {
+                        shakeErrorBox("Uh oh! Try and right a little more for your description.", function() {
+                            formSubmit.prop("disabled", false);
+                        });
+                    } else if (data === "5") {
+                        errorBox.fadeOut().removeClass("red").addClass("green");
 
+                        shakeErrorBox("Awesome! Your message was delivered. Thank you for your interest!", null);
+                    } else {
+                        shakeErrorBox(data, null);
+                    }
+                },
+                error: function() {
+                    shakeErrorBox("An unknown error occurred. Please try again later.", function() {
+                        formSubmit.prop("disabled", false);
+                    });
+                }
             });
         });
     });

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1659b750-df97-4006-b794-359e2eff4ea9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/style/.sass-cache/32db57de8fd85388ee75ba548f1b9fbcc4048b7c/style.scssc" afterPath="$PROJECT_DIR$/assets/style/.sass-cache/32db57de8fd85388ee75ba548f1b9fbcc4048b7c/style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/style/.sass-cache/aa5a7a8423dc9d06c2ae696102877db7d7e53806/_variables.scssc" afterPath="$PROJECT_DIR$/assets/style/.sass-cache/aa5a7a8423dc9d06c2ae696102877db7d7e53806/_variables.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/secret/send-contact.php" afterPath="$PROJECT_DIR$/assets/secret/send-contact.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="182" column="158" lean-forward="false" selection-start-line="182" selection-start-column="158" selection-end-line="182" selection-end-column="158" />
+            <state relative-caret-position="358">
+              <caret line="338" column="27" lean-forward="true" selection-start-line="338" selection-start-column="27" selection-end-line="338" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#form#0;n#div#0;n#div#2;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -32,41 +31,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="send-contact.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="send-contact.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/secret/send-contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="728">
+              <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="materialize.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/style/scss/materialize.scss">
+      <file leaf-file-name="recaptchalib.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/secret/recaptchalib.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            <state relative-caret-position="3952">
+              <caret line="183" column="44" lean-forward="true" selection-start-line="183" selection-start-column="44" selection-end-line="183" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/style/scss/components/_variables.scss">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="676">
-              <caret line="44" column="54" lean-forward="false" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_color.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/style/scss/components/_color.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="403" column="34" lean-forward="false" selection-start-line="403" selection-start-column="34" selection-end-line="403" selection-end-column="34" />
+            <state relative-caret-position="0">
+              <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -89,9 +78,15 @@
       <find>form</find>
       <find>#need</find>
       <find>data-</find>
+      <find>error-box</find>
+      <find>&quot;</find>
+      <find>check_answer</find>
+      <find>incorrect-captcha</find>
+      <find>beep boop</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;div class=&quot;divider&quot;&gt;&lt;/div&gt;</replace>
+      <replace>'</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -110,13 +105,13 @@
         <option value="$PROJECT_DIR$/assets/style/css/materialize.css" />
         <option value="$PROJECT_DIR$/assets/style/scss/materialize.scss" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/assets/style/scss/style.scss" />
         <option value="$PROJECT_DIR$/assets/style/css/style.css" />
         <option value="$PROJECT_DIR$/assets/script/global.js" />
         <option value="$PROJECT_DIR$/assets/style/scss/components/_variables.scss" />
-        <option value="$PROJECT_DIR$/assets/secret/send-contact.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/assets/secret/send-contact.php" />
       </list>
     </option>
   </component>
@@ -193,16 +188,16 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MAMP\htdocs\TylerGrissom\assets\style\css" />
+      <recent name="E:\MAMP\htdocs\TylerGrissom\assets\style\scss" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MAMP\htdocs\TylerGrissom\assets\secret" />
       <recent name="E:\MAMP\htdocs\TylerGrissom\data" />
       <recent name="E:\MAMP\htdocs\TylerGrissom" />
       <recent name="E:\MAMP\htdocs\TylerGrissom\assets" />
       <recent name="E:\MAMP\htdocs\TylerGrissom\assets\style\css" />
-      <recent name="E:\MAMP\htdocs\TylerGrissom\assets\style\scss" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\MAMP\htdocs\TylerGrissom\assets\style\css" />
-      <recent name="E:\MAMP\htdocs\TylerGrissom\assets\style\scss" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -233,12 +228,12 @@
       <workItem from="1509926334481" duration="146000" />
       <workItem from="1509927368130" duration="14353000" />
       <workItem from="1511109379542" duration="521000" />
-      <workItem from="1511110120613" duration="10626000" />
+      <workItem from="1511110120613" duration="18539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26507000" />
+    <option name="totallyTimeSpent" value="34420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -562,14 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/style/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -618,22 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/style/scss/components/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="44" column="54" lean-forward="false" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/secret/send-contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/style/scss/materialize.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -650,14 +621,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/style/scss/components/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="44" column="54" lean-forward="false" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/secret/recaptchalib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3952">
+          <caret line="183" column="44" lean-forward="true" selection-start-line="183" selection-start-column="44" selection-end-line="183" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="182" column="158" lean-forward="false" selection-start-line="182" selection-start-column="158" selection-end-line="182" selection-end-column="158" />
+        <state relative-caret-position="358">
+          <caret line="338" column="27" lean-forward="true" selection-start-line="338" selection-start-column="27" selection-end-line="338" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#form#0;n#div#0;n#div#2;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/secret/send-contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
