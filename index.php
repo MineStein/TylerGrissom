@@ -59,12 +59,12 @@
               <div class="col m10 s2">
                   <h5>Hello!</h5>
                   <p>
-                      My name is Tyler and I am a fifteen year old programmer and web designer from Hubertus, Wisconsin. I primarily code in Java creating
+                      My name is Tyler and I am a fifteen year old programmer and web designer from the United States. I primarily code in Java creating
                       <a href="http://spigotmc.org">Spigot server plugins</a> and utilizing various web-enabled technologies to craft beautiful, user-friendly sites.
                       <br><div class="divider cyan darken-2" style="width: 60%;"></div><br style="line-height: 50%">
-                      Besides my experience with computers, I have a miniature schnauzer named Maggie and a younger brother named Kaiden. I attend Hartford Union High
-                      School where I am currently a sophomore taking some very interesting classes, some of which include Astronomy and Web Design & Development. I love
-                      hanging out with my friends and going out and side-projects related to computers.
+                      Besides my experience with computers, I have a miniature schnauzer named Maggie and a younger brother named Kaiden. I attend high school where
+                        I am currently a sophomore taking some very interesting classes, some of which include Astronomy and Web Design & Development. I love
+                      hanging out with my friends, going out and doing side-projects related to computers.
                   </div>
           </div>
       </div>
@@ -85,7 +85,7 @@
         <p>Want to buy one of these? Drop me a line <a href="#" onclick="scrollToElement('section-contact');">here</a>.</p>
 
         <div class="col s12 m4">
-          <div class="card orange darken-1 white-text">
+          <div class="card service-card orange darken-1 white-text">
             <div class="card-content">
               <h5>Spigot Server Plugin</h5>
 
@@ -99,11 +99,31 @@
         </div>
 
         <div class="col s12 m4">
+            <div class="card service-card pink darken-1 white-text">
+                <div class="card-content">
+                    <h5>Laravel Website</h5>
 
+                    <p>A premium website backend powered by <a href="https://laravel.com/">Laravel</a>.</p>
+                </div>
+
+                <div class="card-action">
+                    <a href="#modal-service-laravel" class="btn white black-text modal-trigger">View</a>
+                </div>
+            </div>
         </div>
 
         <div class="col s12 m4">
+            <div class="card service-card blue darken-1 white-text">
+                <div class="card-content">
+                    <h5>Web Design</h5>
 
+                    <p>A website design service offering a custom look for your next big project.</p>
+                </div>
+
+                <div class="card-action">
+                    <a href="#modal-service-web-design" class="btn white black-text modal-trigger">View</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -213,6 +233,24 @@
     </ul>
 </div>
 
+<footer class="page-footer cyan darken-2">
+    <div class="container">
+        <div class="row">
+            <div class="col l4 s12">
+                <h5 class="white-text">More</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © <?php echo date("Y"); ?> Tyler Grissom
+        </div>
+    </div>
+</footer>
+
 <!-- Element Showed -->
 <a id="menu" class="waves-effect waves-light btn btn-large btn-floating orange z-depth-3" style="bottom: 20px; right: 20px; position: fixed;"><i class="material-icons">copyright</i></a>
 
@@ -228,15 +266,23 @@
 
 <div class="modal" id="modal-service-spigot">
   <div class="modal-content">
-    <h4>Spigot Server Plugin</h4>
-    <p>
-      Purchasing this package will get you the following:
-    </p>
+      <h4>Spigot Server Plugin</h4>
+      <p>
+        Purchasing this package will get you the following:
+      </p>
 
-    <ul class="collection">
-      <li class="collection-item"><i class="material-icons green-text">check</i>Spigot plugin running on your choice of Minecraft version</li>
-      <li class="collection-item"><i class="material-icons green-text">check</i>Support for 30 days after the JAR file is provided</li>
-    </ul>
+      <ul class="collection">
+        <li class="collection-item"><i class="material-icons green-text">check</i>Spigot plugin running on your choice of Minecraft version</li>
+        <li class="collection-item"><i class="material-icons green-text">check</i>Support for 30 days after the JAR file is provided</li>
+      </ul>
+
+      <h5>Addon packages for this service</h5>
+
+      <ul class="collection">
+          <li class="collection-item">Customizable messages</li>
+          <li class="collection-item">Database support</li>
+          <li class="collection-item">Private source code access</li>
+      </ul>
   </div>
 </div>
 
