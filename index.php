@@ -124,7 +124,7 @@
         </div>
 
         <div class="col s12">
-            <div class="card blue white-text">
+            <div class="card green white-text">
                 <div class="card-content">
                     <h5>Pro Tip</h5>
                     <p>Need a service that isn't mentioned here? It's likely I can still hook you up! Just submit a request <a href="#" class="white-text" onclick="scrollToElement('section-contact');">here</a>.</p>
@@ -276,7 +276,7 @@
     </div>
     <div class="footer-copyright">
         <div class="container">
-            © <?php echo date("Y"); ?> Tyler Grissom
+            Copyright © 2013 - <?php echo date("Y"); ?> Tyler Grissom
         </div>
     </div>
 </footer>
