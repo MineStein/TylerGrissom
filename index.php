@@ -28,7 +28,7 @@
                 <a href="#!" class="brand-logo">Tyler Grissom</a>
                 <a href="#" data-activates="mobile-navbar" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
                     <li><a href="#" onclick="scrollToElement('section-about-me');">About Me</a></li>
                     <li><a href="#" onclick="scrollToElement('section-services');">Services</a></li>
                     <li><a href="#" onclick="scrollToElement('section-portfolio');">Portfolio</a></li>
@@ -269,7 +269,7 @@
             <div class="col l4 s12">
                 <h5 class="white-text">More</h5>
                 <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">Terms of Service</a></li>
+                    <li><a class="grey-text text-lighten-3 modal-trigger" href="#modal-tos">Terms of Service</a></li>
                 </ul>
             </div>
         </div>
@@ -313,6 +313,28 @@
           <li class="collection-item">Private source code access</li>
       </ul>
   </div>
+</div>
+
+<div class="modal" id="modal-tos">
+    <div class="modal-content">
+        <h4>Terms of Service</h4>
+        <h5>1. Acceptance</h5>
+        <p>These are the standard terms and conditions for Website Design and Development and apply to all contracts and all work undertaken by Tyler Grissom for its clients.</p>
+        <h5>2. Our Fees and Deposits</h5>
+        <p>A 50% deposit of the total fee payable under our proposal is due immediately upon you instructing us to proceed with the website design and development work. The remaining 50% shall become due when the work is completed to your reasonable satisfaction but subject to the terms of the “approval of work” and “rejected work” clauses. We reserve the right not to commence any work until the deposit has been paid in full. The 50% deposit is not refundable if the development work has been started and you terminate the contract through no fault of ours.</p>
+        <h5>3. Supply of Materials</h5>
+        <p>You must supply all materials and information required by us to complete the work in accordance with any agreed specification. Such materials may include, but are not limited to, photographs, written copy, logos and other printed material. Where there is any delay in supplying these materials to us which leads to a delay in the completion of work, we have the right to extend any previously agreed deadlines by a reasonable amount. Where you fail to supply materials, and that prevents the progress of the work, we have the right to invoice you for any part or parts of the work already completed.</p>
+        <h5>4. Variations</h5>
+        <p>We are pleased to offer you the opportunity to revise the design. However, we have the right to limit the number of design proposals to a reasonable amount and may charge for additional designs if you make a change to the original design specification</p>
+        <h5>5. Project Delays and Client Liability</h5>
+        <p>Any time frames or estimates that we give are contingent upon your full co-operation and complete and final content in photography for the work pages. During development there is a certain amount of feedback required to progress to subsequent phases.</p>
+        <h5>6. Approval of Work</h5>
+        <p>On completion of the work you will be notified and can review it. You must notify us in writing of any unsatisfactory points within 48 hours of such notification. Any of the work which has not been reported in writing to us as unsatisfactory within the 48-hour review period will be deemed to have been approved. Once approved, or deemed approved, work cannot subsequently be rejected and the contract will be deemed to have been completed and the 50% balance of the project price will become due.</p>
+        <h5>7. Rejected Work</h5>
+        <p>If you reject any of our work within the 48-hour review period, or not approve subsequent work performed by us to remedy any points recorded as being unsatisfactory, and we, acting reasonably, consider that you have been unreasonable in any rejection of the work, we can elect to treat this contract as at an end and take measures to recover payment for the completed work.</p>
+        <h5>8. Payment</h5>
+        <p>Upon completion of the work, the remaining 50% of the project is due and must be paid immediately.</p>
+    </div>
 </div>
 
 <script>
