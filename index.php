@@ -88,7 +88,7 @@
         <div class="col s12 m4">
             <div class="card small orange darken-1 white-text z-depth-5">
                 <div class="card-image waves-effect waves-block waves-light">
-                    <img src="assets/image/java-code-5.png" alt="Java Code">
+                    <a href="#modal-service-spigot" class="modal-trigger"><img src="assets/image/java-code-5.png" alt="Java Code"></a>
                 </div>
 
                 <div class="card-content">
@@ -101,7 +101,7 @@
         <div class="col s12 m4">
             <div class="card small pink darken-1 white-text z-depth-5">
                 <div class="card-image waves-effect waves-block waves-light">
-                    <img src="assets/image/laravel-code.png" alt="Laravel Code">
+                    <a href="#modal-service-laravel" class="modal-trigger"><img src="assets/image/laravel-code.png" alt="Laravel Code"></a>
                 </div>
 
                 <div class="card-content">
@@ -114,7 +114,7 @@
         <div class="col s12 m4">
             <div class="card small blue white-text z-depth-5">
                 <div class="card-image waves-effect waves-block waves-light">
-                    <img src="assets/image/css-code.png" alt="CSS Code">
+                    <a href="#modal-service-web-design" class="modal-trigger"><img src="assets/image/css-code.png" alt="CSS Code"></a>
                 </div>
 
                 <div class="card-content">
@@ -127,7 +127,7 @@
         <div class="col s12 offset-m2 m4">
             <div class="card small purple white-text z-depth-5">
                 <div class="card-image waves-effect waves-block waves-light">
-                    <img src="assets/image/php-code.png" alt="PHP Code">
+                    <a href="#modal-service-php" class="modal-trigger"><img src="assets/image/php-code.png" alt="PHP Code"></a>
                 </div>
 
                 <div class="card-content">
@@ -140,7 +140,7 @@
         <div class="col s12 m4">
             <div class="card small yellow black-text z-depth-5">
                 <div class="card-image waves-effect waves-block waves-light">
-                    <img src="assets/image/java-code-6.png" alt="Java Code">
+                    <a href="#modal-service-bungeecord" class="modal-trigger"><img src="assets/image/java-code-6.png" alt="Java Code"></a>
                 </div>
 
                 <div class="card-content">
