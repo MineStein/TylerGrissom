@@ -30,14 +30,12 @@
                 <a href="#!" class="brand-logo">Tyler Grissom</a>
                 <a href="#" data-activates="mobile-navbar" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#">Home</a></li>
                     <li><a href="#" onclick="scrollToElement('section-about-me');">About Me</a></li>
                     <li><a href="#" onclick="scrollToElement('section-services');">Services</a></li>
                     <li><a href="#" onclick="scrollToElement('section-portfolio');">Portfolio</a></li>
                     <li><a href="#" onclick="scrollToElement('section-contact');">Contact</a></li>
                 </ul>
                 <ul class="side-nav cyan darken-2" id="mobile-navbar">
-                    <li class="active"><a href="#" class="white-text">Home</a></li>
                     <li><a href="#" class="white-text" onclick="scrollToElement('section-about-me');">About Me</a></li>
                     <li><a href="#" class="white-text" onclick="scrollToElement('section-services');">Services</a></li>
                     <li><a href="#" class="white-text" onclick="scrollToElement('section-portfolio');">Portfolio</a></li>
@@ -62,8 +60,8 @@
                   <h5>Hello!</h5>
                   <p>
                       My name is Tyler and I am a fifteen year old programmer and web designer from the United States. I primarily code in Java creating
-                      <a href="http://spigotmc.org">Spigot server plugins</a> and utilizing various web-enabled technologies to craft beautiful, user-friendly sites.
-                      <br><div class="divider cyan darken-2" style="width: 60%;"></div><br style="line-height: 50%">
+                      Spigot server plugins and utilizing various web-enabled technologies to craft beautiful, user-friendly sites.
+                      <br><div class="divider cyan darken-2"></div><br style="line-height: 50%">
                       Besides my experience with computers, I have a miniature schnauzer named Maggie and a younger brother named Kaiden. I attend high school where
                         I am currently a sophomore taking some very interesting classes, some of which include Astronomy and Web Design & Development. I love
                       hanging out with my friends, going out and doing side-projects related to computers.
