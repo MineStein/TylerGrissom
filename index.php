@@ -282,13 +282,12 @@
 </footer>
 
 <!-- Element Showed -->
-<a id="menu" class="waves-effect waves-light btn btn-large btn-floating orange z-depth-3" style="bottom: 20px; right: 20px; position: fixed;"><i class="material-icons">copyright</i></a>
+<a id="menu" class="waves-effect waves-light btn btn-large btn-floating white z-depth-3" style="bottom: 20px; right: 20px; position: fixed;"><i class="red-text material-icons">favorite</i></a>
 
 <!-- Tap Target Structure -->
-<div class="tap-target amber darken-3 white-text" data-activates="menu">
+<div class="tap-target white black-text" data-activates="menu">
     <div class="tap-target-content">
         <h5>made with <span class="pink-text text-darken-2"><i class="material-icons">favorite</i></span> by tyler grissom</h5>
-        <p>Copyright &copy; Tyler Grissom 2013 - <?php echo date("Y"); ?></p>
     </div>
 </div>
 
