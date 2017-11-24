@@ -52,11 +52,11 @@
       <div class="divider"></div>
       <div style="margin-top: 25px;">
           <div class="row">
-              <div class="col m2 s10">
+              <div class="col s12 m4">
                   <img src="assets/image/tyler.jpg" alt="Tyler" style="border-radius: 15px; width: 70%; height: 70%;" class="materialboxed">
               </div>
 
-              <div class="col m10 s2">
+              <div class="col s8">
                   <h5>Hello!</h5>
                   <p>
                       My name is Tyler and I am a fifteen year old programmer and web designer from the United States. I primarily code in Java creating
@@ -73,55 +73,61 @@
 
 <div class="parallax-container">
     <div class="parallax">
-        <img src="assets/image/code-background.png" alt="Code Background">
+        <img src="assets/image/php-code.png" alt="JavaScript Code Background">
     </div>
 </div>
 
 <div class="section white" id="section-services">
-    <div class="row container">
+    <div class="row container d-flex">
         <h2 class="header">Services</h2>
         <div class="divider"></div>
 
         <p>Want to buy one of these? Drop me a line <a href="#" onclick="scrollToElement('section-contact');">here</a>.</p>
 
         <div class="col s12 m4">
-          <div class="card service-card orange darken-1 white-text">
-            <div class="card-content">
-              <h5>Spigot Server Plugin</h5>
-
-              <p>A made-to-order Spigot server plugin.</p>
-            </div>
-
-            <div class="card-action">
-              <a href="#modal-service-spigot" class="btn white black-text modal-trigger">View</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-            <div class="card service-card pink darken-1 white-text">
-                <div class="card-content">
-                    <h5>Laravel Website</h5>
-
-                    <p>A premium website backend powered by <a href="https://laravel.com/">Laravel</a>.</p>
+            <div class="card small orange darken-1 white-text z-depth-5">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img src="assets/image/java-code-5.png">
                 </div>
 
-                <div class="card-action">
-                    <a href="#modal-service-laravel" class="btn white black-text modal-trigger">View</a>
+                <div class="card-content">
+                    <span class="card-title">Spigot Server Plugin <a href="" class="white-text"><i class="material-icons right">unfold_more</i></a></span>
+                    <p>A made-to-order custom Spigot server plugin.</p>
                 </div>
             </div>
         </div>
 
         <div class="col s12 m4">
-            <div class="card service-card blue darken-1 white-text">
-                <div class="card-content">
-                    <h5>Web Design</h5>
-
-                    <p>A website design service offering a custom look for your next big project.</p>
+            <div class="card small pink darken-1 white-text z-depth-5">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img src="assets/image/laravel-code.png">
                 </div>
 
-                <div class="card-action">
-                    <a href="#modal-service-web-design" class="btn white black-text modal-trigger">View</a>
+                <div class="card-content">
+                    <span class="card-title">Laravel Website <a href="" class="white-text"><i class="material-icons right">unfold_more</i></a></span>
+                    <p>A fluid PHP backend powered by Laravel.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m4">
+            <div class="card small blue white-text z-depth-5">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img src="assets/image/css-code.png">
+                </div>
+
+                <div class="card-content">
+                    <span class="card-title">Web Design <a href="" class="white-text"><i class="material-icons right">unfold_more</i></a></span>
+                    <p>A custom design for your next big project.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12">
+            <div class="card blue white-text">
+                <div class="card-content">
+                    <h3>Pro Tip</h3>
+                    <p>Need a service that isn't mentioned here? It's likely I can still hook you up! Just submit a request <a href="#" class="white-text" onclick="scrollToElement('section-contact');">here</a>.</p>
                 </div>
             </div>
         </div>
@@ -130,14 +136,38 @@
 
 <div class="parallax-container">
     <div class="parallax">
-        <img src="assets/image/java-code.png" alt="CSS Code">
+        <img src="assets/image/java-code-4.png" alt="Java Code">
     </div>
 </div>
 
 <div class="section white" id="section-portfolio">
-    <div class="row container">
+    <div class="container">
         <h2 class="header">Portfolio</h2>
         <div class="divider"></div>
+
+        <div class="row" style="margin-top: 3%;">
+            <ul class="collapsible popout" data-collapsible="accordion">
+                <li>
+                    <div class="collapsible-header">Java</div>
+                    <div class="collapsible-body">
+                        <ul class="collection">
+                            <li class="collection-item"><a target="_blank" href="https://github.com/MineStein/Owlery">Owlery</a></li>
+                            <li class="collection-item"><a target="_blank" href="https://github.com/MineStein/MaraudersMap">MaraudersMap</a></li>
+                            <li class="collection-item"><a target="_blank" href="https://github.com/MineStein/RowlingsEffects">RowlingsEffects</a></li>
+                            <li class="collection-item"><a target="_blank" href="https://github.com/MineStein/RowlingsProtect">RowlingsProtect</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header">PHP</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header">Third</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+            </ul>
+        </div>
     </div>
 </div>
 
@@ -340,6 +370,7 @@
         $(".tooltipped").tooltip({delay: 50});
         $(".modal").modal();
         $('select').material_select();
+        $('.collapsible').collapsible();
 
         var errorBox = $("#error-box");
 
