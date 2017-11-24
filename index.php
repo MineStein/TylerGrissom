@@ -145,6 +145,8 @@
         <h2 class="header">Portfolio</h2>
         <div class="divider"></div>
 
+        <p>Obtain a copy of my CV <a href="cv.pdf" target="_blank">here</a>.</p>
+
         <div class="row" style="margin-top: 3%;">
             <ul class="collapsible popout" data-collapsible="accordion">
                 <li>
