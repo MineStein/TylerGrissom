@@ -23,7 +23,7 @@
 
 <body>
 
-<div class="navbar">
+<div class="navbar navbar-fixed">
     <nav class="cyan darken-2">
         <div class="container">
             <div class="nav-wrapper">
@@ -91,7 +91,7 @@
                 </div>
 
                 <div class="card-content">
-                    <span class="card-title">Spigot Server Plugin <a href="" class="white-text"><i class="material-icons right">unfold_more</i></a></span>
+                    <span class="card-title">Spigot Server Plugin <a href="#modal-service-spigot" class="white-text modal-trigger"><i class="material-icons right">unfold_more</i></a></span>
                     <p>A made-to-order custom Spigot server plugin.</p>
                 </div>
             </div>
@@ -104,7 +104,7 @@
                 </div>
 
                 <div class="card-content">
-                    <span class="card-title">Laravel Website <a href="" class="white-text"><i class="material-icons right">unfold_more</i></a></span>
+                    <span class="card-title">Laravel Website <a href="#modal-service-laravel" class="white-text modal-trigger"><i class="material-icons right">unfold_more</i></a></span>
                     <p>A fluid PHP backend powered by Laravel.</p>
                 </div>
             </div>
@@ -117,8 +117,34 @@
                 </div>
 
                 <div class="card-content">
-                    <span class="card-title">Web Design <a href="" class="white-text"><i class="material-icons right">unfold_more</i></a></span>
+                    <span class="card-title">Web Design <a href="#modal-service-web-design" class="white-text modal-trigger"><i class="material-icons right">unfold_more</i></a></span>
                     <p>A custom design for your next big project.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 offset-m2 m4">
+            <div class="card small purple white-text z-depth-5">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img src="assets/image/php-code.png">
+                </div>
+
+                <div class="card-content">
+                    <span class="card-title">PHP Website<a href="#modal-service-php" class="white-text modal-trigger"><i class="material-icons right">unfold_more</i></a></span>
+                    <p>A completely custom PHP backend for your website.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m4">
+            <div class="card small yellow black-text z-depth-5">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img src="assets/image/java-code-6.png">
+                </div>
+
+                <div class="card-content">
+                    <span class="card-title">BungeeCord Plugin<a href="#modal-service-bungeecord" class="black-text modal-trigger"><i class="material-icons right">unfold_more</i></a></span>
+                    <p>A plugin designed to run on your proxy server.</p>
                 </div>
             </div>
         </div>
@@ -145,28 +171,37 @@
         <h2 class="header">Portfolio</h2>
         <div class="divider"></div>
 
-        <p>Obtain a copy of my CV <a href="cv.pdf" target="_blank">here</a>.</p>
+        <p>Obtain a copy of my CV <a href="cv.pdf" target="_blank" download>here</a>.</p>
 
         <div class="row" style="margin-top: 3%;">
             <ul class="collapsible popout" data-collapsible="accordion">
                 <li>
-                    <div class="collapsible-header">Java</div>
+                    <div class="collapsible-header">Java Plugins</div>
                     <div class="collapsible-body">
                         <ul class="collection">
-                            <li class="collection-item"><a target="_blank" href="https://github.com/MineStein/Owlery">Owlery</a></li>
-                            <li class="collection-item"><a target="_blank" href="https://github.com/MineStein/MaraudersMap">MaraudersMap</a></li>
-                            <li class="collection-item"><a target="_blank" href="https://github.com/MineStein/RowlingsEffects">RowlingsEffects</a></li>
-                            <li class="collection-item"><a target="_blank" href="https://github.com/MineStein/RowlingsProtect">RowlingsProtect</a></li>
+                            <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="An announcements plugin for Spigot servers." href="https://github.com/MineStein/Owlery">Owlery</a></li>
+                            <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="A discovery-based warp system for Spigot servers." href="https://github.com/MineStein/MaraudersMap">MaraudersMap</a></li>
+                            <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="A system for swapping between hats, wands, particles, and more." href="https://github.com/MineStein/RowlingsEffects">RowlingsEffects</a></li>
+                            <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="An anti-WDL plugin with command helpers." href="https://github.com/MineStein/RowlingsProtect">RowlingsProtect</a></li>
                         </ul>
                     </div>
                 </li>
                 <li>
-                    <div class="collapsible-header">PHP</div>
-                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <div class="collapsible-header">Laravel</div>
+                    <div class="collapsible-body">
+                        <ul class="collection">
+                            <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="A blog system based upon the Laracasts tutorial 'Laravel 5.4 from Scratch'." href="https://github.com/MineStein/blog">Blog</a></li>
+                            </ul>
+                    </div>
                 </li>
                 <li>
-                    <div class="collapsible-header">Third</div>
-                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <div class="collapsible-header">Design</div>
+                    <div class="collapsible-body">
+                        <ul class="collection">
+                            <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="My personal website. You're on it." href="https://github.com/MineStein/TylerGrissom">tyler-g.net</a></li>
+                            <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="My final project for web design class following the very stringent and outdated practices mandated by school." href="https://github.com/MineStein/HTML-CSS-Final-Project">Coffee Shop</a></li>
+                        </ul>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -254,17 +289,6 @@
     </div>
 </div>
 
-<div class="fixed-action-btn horizontal" style="bottom: 100px; right: 20px; position: fixed;">
-    <a class="btn-floating btn-large blue z-depth-3" onmouseover="Materialize.toast('How is your experience with this site?', 5000, '');" onmouseout="Materialize.Toast.removeAll();">
-        <i class="material-icons">feedback</i>
-    </a>
-    <ul>
-        <li><a class="btn-floating red tooltipped" data-position="top" data-delay="50" data-tooltip="Dissatisfied"><i class="material-icons">sentiment_dissatisfied</i></a></li>
-        <li><a class="btn-floating yellow darken-1 tooltipped" data-position="top" data-delay="50" data-tooltip="Neutral"><i class="material-icons">sentiment_neutral</i></a></li>
-        <li><a class="btn-floating green tooltipped" data-position="top" data-delay="50" data-tooltip="Satisfied"><i class="material-icons">sentiment_very_satisfied</i></a></li>
-    </ul>
-</div>
-
 <footer class="page-footer cyan darken-2">
     <div class="container">
         <div class="row">
@@ -295,26 +319,87 @@
 
 <!-- Modals -->
 
-<div class="modal" id="modal-service-spigot">
-  <div class="modal-content">
-      <h4>Spigot Server Plugin</h4>
-      <p>
-        Purchasing this package will get you the following:
-      </p>
+<div class="modal" id="modal-service-spigot">;
+    <div class="modal-content">
+        <h4>Spigot Server Plugin</h4>
+        <p>
+            Purchasing this package will get you the following:
+        </p>
 
-      <ul class="collection">
-        <li class="collection-item"><i class="material-icons green-text">check</i>Spigot plugin running on your choice of Minecraft version</li>
-        <li class="collection-item"><i class="material-icons green-text">check</i>Support for 30 days after the JAR file is provided</li>
-      </ul>
+        <ul class="collection">
+            <li class="collection-item"><i class="material-icons green-text">check</i>Spigot plugin running on your choice of Minecraft version</li>
+            <li class="collection-item"><i class="material-icons green-text">check</i>Support for 30 days after the JAR file is provided</li>
+        </ul>
 
-      <h5>Addon packages for this service</h5>
+        <h5>Addon packages for this service</h5>
 
-      <ul class="collection">
-          <li class="collection-item">Customizable messages</li>
-          <li class="collection-item">Database support</li>
-          <li class="collection-item">Private source code access</li>
-      </ul>
-  </div>
+        <ul class="collection">
+            <li class="collection-item">Customizable messages</li>
+            <li class="collection-item">Database support</li>
+            <li class="collection-item">Private source code access</li>
+        </ul>
+
+        <div class="row">
+            <div class="col s12">
+                <div class="card orange darken-1 white-text">
+                    <div class="card-content">
+                        <h5>Interested in purchasing?</h5>
+                        <p>You can order this service by filling out the contact form below.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="modal-service-laravel">;
+    <div class="modal-content">
+        <h4>Laravel Website</h4>
+        <p>
+            Purchasing this package will get you the following:
+        </p>
+
+        <ul class="collection">
+            <li class="collection-item"><i class="material-icons green-text">check</i>A website backend built upon the Laravel framework</li>
+            <li class="collection-item"><i class="material-icons green-text">check</i>Support for 30 days after the site files are provided</li>
+        </ul>
+
+        <div class="row">
+            <div class="col s12">
+                <div class="card pink darken-1 white-text">
+                    <div class="card-content">
+                        <h5>Interested in purchasing?</h5>
+                        <p>You can order this service by filling out the contact form below.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="modal-service-web-design">;
+    <div class="modal-content">
+        <h4>Web Design</h4>
+        <p>
+            Purchasing this package will get you the following:
+        </p>
+
+        <ul class="collection">
+            <li class="collection-item"><i class="material-icons green-text">check</i>A custom designed website.</li>
+            <li class="collection-item"><i class="material-icons green-text">check</i>Support for 30 days after the site files are provided.</li>
+        </ul>
+
+        <div class="row">
+            <div class="col s12">
+                <div class="card blue white-text">
+                    <div class="card-content">
+                        <h5>Interested in purchasing?</h5>
+                        <p>You can order this service by filling out the contact form below.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="modal" id="modal-tos">
@@ -342,7 +427,7 @@
 <script>
     function scrollToElement(elementId) {
         $("html, body").animate({
-            scrollTop: $("#" + elementId).offset().top
+            scrollTop: $("#" + elementId).offset().top - 60
         }, 250);
     }
 
