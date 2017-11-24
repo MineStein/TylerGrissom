@@ -126,7 +126,7 @@
         <div class="col s12">
             <div class="card blue white-text">
                 <div class="card-content">
-                    <h3>Pro Tip</h3>
+                    <h5>Pro Tip</h5>
                     <p>Need a service that isn't mentioned here? It's likely I can still hook you up! Just submit a request <a href="#" class="white-text" onclick="scrollToElement('section-contact');">here</a>.</p>
                 </div>
             </div>
