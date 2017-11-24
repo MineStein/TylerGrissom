@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" type="text/css" href="assets/style/css/style.css">
 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
     <script rel="script" type="text/javascript" src="assets/script/jquery-3.2.1.min.js"></script>
     <script rel="script" type="text/javascript" src="assets/script/materialize.min.js"></script>
     <script rel="script" type="text/javascript" src="assets/script/global.js"></script>
@@ -233,8 +235,8 @@
                       </div>
                   </div>
                   <div class="row">
-                      <div class="col s6 g-recaptcha" data-sitekey="6Ld3fzkUAAAAAMtobohuy_-dMRWnWq5tWv_9-50-"></div>
-                      <div class="col s6">
+                      <div class="col s12 m6 g-recaptcha" data-sitekey="6Ld3fzkUAAAAAMtobohuy_-dMRWnWq5tWv_9-50-"></div>
+                      <div class="input-field col s12 m6">
                           <button id="form-submit" type="submit" class="btn blue">Send</button>
                       </div>
                   </div>
