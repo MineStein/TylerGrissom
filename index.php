@@ -15,6 +15,7 @@
     <script rel="script" type="text/javascript" src="assets/script/materialize.min.js"></script>
     <script rel="script" type="text/javascript" src="assets/script/global.js"></script>
     <script rel="script" type="text/javascript" src='https://www.google.com/recaptcha/api.js'></script>
+    <script rel="script" type="text/javascript" async src="https://widget.battleforthenet.com/widget.js"></script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -30,10 +31,10 @@
                 <a href="#!" class="brand-logo">Tyler Grissom</a>
                 <a href="#" data-activates="mobile-navbar" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#" onclick="scrollToElement('section-about-me');">About Me</a></li>
-                    <li><a href="#" onclick="scrollToElement('section-services');">Services</a></li>
-                    <li><a href="#" onclick="scrollToElement('section-portfolio');">Portfolio</a></li>
-                    <li><a href="#" onclick="scrollToElement('section-contact');">Contact</a></li>
+                    <li id="nav-item-section-about-me"><a href="#section-about-me" onclick="scrollToElement('section-about-me');">About Me</a></li>
+                    <li id="nav-item-section-services"><a href="#section-services" onclick="scrollToElement('section-services');">Services</a></li>
+                    <li id="nav-item-section-portfolio"><a href="#section-portfolio" onclick="scrollToElement('section-portfolio');">Portfolio</a></li>
+                    <li id="nav-item-section-contact"><a href="#section-contact" onclick="scrollToElement('section-contact');">Contact</a></li>
                 </ul>
                 <ul class="side-nav cyan darken-2" id="mobile-navbar">
                     <li><a href="#" class="white-text" onclick="scrollToElement('section-about-me');">About Me</a></li>
@@ -46,7 +47,7 @@
     </nav>
 </div>
 
-<div class="section white" id="section-about-me">
+<div class="section white scrollspy" id="section-about-me">
     <div class="row container">
       <h2 class="header">About Me</h2>
       <div class="divider"></div>
@@ -56,7 +57,7 @@
                   <img src="assets/image/tyler.jpg" alt="Tyler" style="border-radius: 15px; width: 70%; height: 70%;" class="materialboxed">
               </div>
 
-              <div class="col s8">
+              <div class="col s8 m4">
                   <h5>Hello!</h5>
                   <p>
                       My name is Tyler and I am a fifteen year old programmer and web designer from the United States. I primarily code in Java creating
@@ -65,7 +66,7 @@
                       Besides my experience with computers, I have a miniature schnauzer named Maggie and a younger brother named Kaiden. I attend high school where
                         I am currently a sophomore taking some very interesting classes, some of which include Astronomy and Web Design & Development. I love
                       hanging out with my friends, going out and doing side-projects related to computers.
-                  </div>
+              </div>
           </div>
       </div>
     </div>
@@ -77,7 +78,7 @@
     </div>
 </div>
 
-<div class="section white" id="section-services">
+<div class="section white scrollspy" id="section-services">
     <div class="row container d-flex">
         <h2 class="header">Services</h2>
         <div class="divider"></div>
@@ -166,7 +167,7 @@
     </div>
 </div>
 
-<div class="section white" id="section-portfolio">
+<div class="section white scrollspy" id="section-portfolio">
     <div class="container">
         <h2 class="header">Portfolio</h2>
         <div class="divider"></div>
@@ -214,7 +215,7 @@
     </div>
 </div>
 
-<div class="section white" id="section-contact">
+<div class="section white scrollspy" id="section-contact">
     <div class="row container">
         <div class="card red white-text" id="error-box">
             <div class="card-content">
@@ -529,6 +530,11 @@
         $(".modal").modal();
         $('select').material_select();
         $('.collapsible').collapsible();
+        $('.scrollspy').scrollSpy({
+            getActiveElement: function(id) {
+                return "#nav-item-" + id;
+            }
+        });
 
         var errorBox = $("#error-box");
 
