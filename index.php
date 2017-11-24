@@ -17,7 +17,7 @@
     <script rel="script" type="text/javascript" src='https://www.google.com/recaptcha/api.js'></script>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
 
@@ -73,7 +73,7 @@
 
 <div class="parallax-container">
     <div class="parallax">
-        <img src="assets/image/php-code.png" alt="JavaScript Code Background">
+        <img src="assets/image/php-code.png" alt="PHP Code">
     </div>
 </div>
 
@@ -87,7 +87,7 @@
         <div class="col s12 m4">
             <div class="card small orange darken-1 white-text z-depth-5">
                 <div class="card-image waves-effect waves-block waves-light">
-                    <img src="assets/image/java-code-5.png">
+                    <img src="assets/image/java-code-5.png" alt="Java Code">
                 </div>
 
                 <div class="card-content">
@@ -100,7 +100,7 @@
         <div class="col s12 m4">
             <div class="card small pink darken-1 white-text z-depth-5">
                 <div class="card-image waves-effect waves-block waves-light">
-                    <img src="assets/image/laravel-code.png">
+                    <img src="assets/image/laravel-code.png" alt="Laravel Code">
                 </div>
 
                 <div class="card-content">
@@ -113,7 +113,7 @@
         <div class="col s12 m4">
             <div class="card small blue white-text z-depth-5">
                 <div class="card-image waves-effect waves-block waves-light">
-                    <img src="assets/image/css-code.png">
+                    <img src="assets/image/css-code.png" alt="CSS Code">
                 </div>
 
                 <div class="card-content">
@@ -126,7 +126,7 @@
         <div class="col s12 offset-m2 m4">
             <div class="card small purple white-text z-depth-5">
                 <div class="card-image waves-effect waves-block waves-light">
-                    <img src="assets/image/php-code.png">
+                    <img src="assets/image/php-code.png" alt="PHP Code">
                 </div>
 
                 <div class="card-content">
@@ -139,7 +139,7 @@
         <div class="col s12 m4">
             <div class="card small yellow black-text z-depth-5">
                 <div class="card-image waves-effect waves-block waves-light">
-                    <img src="assets/image/java-code-6.png">
+                    <img src="assets/image/java-code-6.png" alt="Java Code">
                 </div>
 
                 <div class="card-content">

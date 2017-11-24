@@ -19,8 +19,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="429" column="49" lean-forward="true" selection-start-line="429" selection-start-column="49" selection-end-line="429" selection-end-column="49" />
+            <state relative-caret-position="207">
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding>
                 <element signature="n#style#0;n#br#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -32,8 +32,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>nav</find>
-      <find>1.</find>
       <find>&lt;hr&gt;</find>
       <find>side-projec</find>
       <find>line here</find>
@@ -62,6 +60,8 @@
       <find>cv</find>
       <find>Portfolio</find>
       <find>;</find>
+      <find>img</find>
+      <find>viewport</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;div class=&quot;divider&quot;&gt;&lt;/div&gt;</replace>
@@ -107,7 +107,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -236,18 +236,18 @@
       <workItem from="1511110120613" duration="16287000" />
       <workItem from="1511232613689" duration="598000" />
       <workItem from="1511487670119" duration="40000" />
-      <workItem from="1511487743703" duration="7224000" />
+      <workItem from="1511487743703" duration="7549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46656000" />
+    <option name="totallyTimeSpent" value="46981000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22291666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44676408" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -350,13 +350,6 @@
     <entry file="file://$PROJECT_DIR$/panel.php" />
     <entry file="file://$PROJECT_DIR$/panel-gateway.php" />
     <entry file="file://$PROJECT_DIR$/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/assets/style/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/script/global.js" />
     <entry file="file://$PROJECT_DIR$/assets/style/scss/components/_materialbox.scss" />
     <entry file="file://$PROJECT_DIR$/assets/style/scss/components/_modal.scss" />
@@ -373,14 +366,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/secret/recaptchalib.php" />
-    <entry file="file://$PROJECT_DIR$/assets/style/css/materialize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="3404" column="21" lean-forward="false" selection-start-line="3404" selection-start-column="21" selection-end-line="3404" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/style/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -427,10 +412,26 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/style/css/materialize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="3416" column="16" lean-forward="true" selection-start-line="3416" selection-start-column="16" selection-end-line="3416" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/style/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="429" column="49" lean-forward="true" selection-start-line="429" selection-start-column="49" selection-end-line="429" selection-end-column="49" />
+        <state relative-caret-position="207">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding>
             <element signature="n#style#0;n#br#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
