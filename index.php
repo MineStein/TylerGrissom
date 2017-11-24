@@ -319,7 +319,7 @@
 
 <!-- Modals -->
 
-<div class="modal" id="modal-service-spigot">;
+<div class="modal" id="modal-service-spigot">
     <div class="modal-content">
         <h4>Spigot Server Plugin</h4>
         <p>
@@ -352,7 +352,7 @@
     </div>
 </div>
 
-<div class="modal" id="modal-service-laravel">;
+<div class="modal" id="modal-service-laravel">
     <div class="modal-content">
         <h4>Laravel Website</h4>
         <p>
@@ -377,7 +377,7 @@
     </div>
 </div>
 
-<div class="modal" id="modal-service-web-design">;
+<div class="modal" id="modal-service-web-design">
     <div class="modal-content">
         <h4>Web Design</h4>
         <p>
@@ -392,6 +392,56 @@
         <div class="row">
             <div class="col s12">
                 <div class="card blue white-text">
+                    <div class="card-content">
+                        <h5>Interested in purchasing?</h5>
+                        <p>You can order this service by filling out the contact form below.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="modal-service-php">
+    <div class="modal-content">
+        <h4>PHP Website</h4>
+        <p>
+            Purchasing this package will get you the following:
+        </p>
+
+        <ul class="collection">
+            <li class="collection-item"><i class="material-icons green-text">check</i>A website backend powered by custom PHP.</li>
+            <li class="collection-item"><i class="material-icons green-text">check</i>Support for 30 days after the site files are provided.</li>
+        </ul>
+
+        <div class="row">
+            <div class="col s12">
+                <div class="card purple white-text">
+                    <div class="card-content">
+                        <h5>Interested in purchasing?</h5>
+                        <p>You can order this service by filling out the contact form below.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="modal-service-bungeecord">
+    <div class="modal-content">
+        <h4>BungeeCord Plugin</h4>
+        <p>
+            Purchasing this package will get you the following:
+        </p>
+
+        <ul class="collection">
+            <li class="collection-item"><i class="material-icons green-text">check</i>A made-to-order Bungeecord plugin that works on your proxy.</li>
+            <li class="collection-item"><i class="material-icons green-text">check</i>Support for 30 days after the files are provided.</li>
+        </ul>
+
+        <div class="row">
+            <div class="col s12">
+                <div class="card yellow black-text">
                     <div class="card-content">
                         <h5>Interested in purchasing?</h5>
                         <p>You can order this service by filling out the contact form below.</p>
