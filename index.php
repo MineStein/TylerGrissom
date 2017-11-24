@@ -57,7 +57,7 @@
                   <img src="assets/image/tyler.jpg" alt="Tyler" style="border-radius: 15px; width: 70%; height: 70%;" class="materialboxed">
               </div>
 
-              <div class="col s8 m4">
+              <div class="col s8 m6">
                   <h5>Hello!</h5>
                   <p>
                       My name is Tyler and I am a fifteen year old programmer and web designer from the United States. I primarily code in Java creating
