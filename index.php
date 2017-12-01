@@ -18,6 +18,9 @@
     <script rel="script" type="text/javascript" async src="https://widget.battleforthenet.com/widget.js"></script>
 
     <meta charset="UTF-8">
+    <meta name="description" content="Providing quality web designs and Spigot plugins since 2014">
+    <meta name="keywords" content="tyler,grissom,programming,websites,minecraft,spigot,bukkit,plugins,development,web,design">
+    <meta name="author" content="Tyler Grissom">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
@@ -201,6 +204,7 @@
                         <ul class="collection">
                             <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="My personal website. You're on it." href="https://github.com/MineStein/TylerGrissom">tyler-g.net</a></li>
                             <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="My final project for web design class following the very stringent and outdated practices mandated by school." href="https://github.com/MineStein/HTML-CSS-Final-Project">Coffee Shop</a></li>
+                            <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="Re-design commission for Lotus#3014" href="https://github.com/MineStein/OrpheusServices">Orpheus Services</a></li>
                         </ul>
                     </div>
                 </li>
