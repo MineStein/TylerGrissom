@@ -1,4 +1,8 @@
 .no-text-transform {
   text-transform: none; }
 
+blockquote {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
 /*# sourceMappingURL=style.css.map */

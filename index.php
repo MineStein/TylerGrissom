@@ -53,7 +53,7 @@
       <div style="margin-top: 25px;">
           <div class="row">
               <div class="col s12 m4">
-                  <img src="assets/image/tyler-1.jpg" alt="Tyler" style="border-radius: 15px; width: 70%; height: 70%;" class="materialboxed">
+                  <img src="assets/image/tyler-1.jpg" alt="Tyler" style="border-radius: 5px; width: 70%; height: 70%;" class="materialboxed">
               </div>
 
               <div class="col s8 m6">
@@ -227,27 +227,86 @@
 <div class="section blue-grey lighten-5 scrollspy" id="section-partners">
     <div class="container">
         <div class="row">
-            <h2 class="header">Who have I worked with?</h2>
-            <div class="divider" style="margin-bottom: 30px;"></div>
-            <p>I have worked with a number of notable Minecraft servers, mostly in the sub-genre of Harry Potter. I have also been partnered as a developer for SnakeMC, a server owned by prominent YouTube SnakeDoctor, and worked with an innumerable amount of small-scale startup servers.</p>
+            <h3 class="header">Who have I worked with?</h3>
+            <div class="divider" style="margin-bottom: 10px;"></div>
         </div>
-        <div class="slider">
-            <ul class="slides">
-                <li>
-                    <img src="assets/image/rowlings-realm.jpg" alt="Rowling's Realm Logo">
-                    <div class="caption center-align">
-                        <h3>Rowling's Realm</h3>
-                        <h5 class="light grey-text text-lighten-3">I worked for Rowling's Realm as the head developer where I designed a fully featured Magic system, led a team of developers, and more.</h5>
-                    </div>
-                </li>
-                <li>
-                    <img src="assets/image/potterworld.png" alt="PotterworldMC Logo">
-                    <div class="caption center-align">
-                        <h3>PotterworldMC</h3>
-                        <h5 class="light grey-text text-lighten-3">I worked for PotterworldMC as a developer where I worked on smaller plugins.</h5>
-                    </div>
-                </li>
-            </ul>
+
+        <div class="row">
+            <div class="col s12 m3">
+                <img class="materialboxed" style="border-radius: 5px; width: 250px; height: 250px;" src="assets/image/snake-mc.jpeg" alt=SnakeMC">
+            </div>
+
+            <div class="col s12 m9">
+                <blockquote style="border-left-color: #01579b">
+                    <h5><a href="http://www.snakemc.com/" target="_blank">SnakeMC</a> 2014</h5>
+                    <p>I worked with SnakeMC for a couple of months where my responsibilities included:</p>
+                    <ul>
+                        <li>Designing user experiences for a multitude of server types</li>
+                        <li>Working as a team</li>
+                    </ul>
+                </blockquote>
+            </div>
+        </div>
+
+        <div class="divider" style="margin-bottom: 20px;"></div>
+
+        <div class="row">
+            <div class="col s12 m3">
+                <img class="materialboxed" style="border-radius: 5px; width: 250px; height: 250px;" src="assets/image/potterworld.png" alt=PotterworldMC">
+            </div>
+
+            <div class="col s12 m9">
+                <blockquote style="border-left-color: #01579b">
+                    <h5><a href="http://potterworldmc.com" target="_blank">PotterworldMC</a> 2015</h5>
+                    <p>I worked with PotterworldMC for a brief time as a junior developer. Responsibilities included:</p>
+                    <ul>
+                        <li>Developing smaller-scale plugins which improved overall user experiences</li>
+                        <li>Working as a team. This position gave me a bit more experience in that regard.</li>
+                    </ul>
+                </blockquote>
+            </div>
+        </div>
+
+        <div class="divider" style="margin-bottom: 20px;"></div>
+
+        <div class="row">
+            <div class="col s12 m3">
+                <img class="materialboxed" style="border-radius: 5px; width: 250px; height: 250px;" src="assets/image/rowlings-realm.jpg" alt="Rowling's Realm Logo">
+            </div>
+
+            <div class="col s12 m9">
+                <blockquote style="border-left-color: #01579b">
+                    <h5><a href="http://rowlingsrealm.com" target="_blank">Rowling's Realm</a> May 2017 - August 2017</h5>
+                    <p>I worked with Rowling's Realm as their head of plugin development where I held the following responsibilities:</p>
+                    <ul>
+                        <li>Oversee a team of developers</li>
+                        <li>Design a fully-featured Magic system based on Harry Potter</li>
+                        <li>Delegate jobs to the development team</li>
+                        <li>Manage server files</li>
+                    </ul>
+                </blockquote>
+            </div>
+        </div>
+
+        <div class="divider" style="margin-bottom: 20px;"></div>
+
+        <div class="row">
+            <div class="col s12 m3">
+                <img class="materialboxed" style="border-radius: 5px; width: 250px; height: 250px;" src="assets/image/astoria-network.jpg" alt="Astoria Network Logo">
+            </div>
+
+            <div class="col s12 m9">
+                <blockquote style="border-left-color: #01579b">
+                    <h5><a href="https://peculiar-realm.enjin.com" target="_blank">Astoria Network</a> August 2017 - Present</h5>
+                    <p>I work with Astoria Network as owner of Marauder's Realm and head plugin developer for the network where my responsibilities were as follows:</p>
+                    <ul>
+                        <li>Lead a team of developers</li>
+                        <li>Maintain server files for the network</li>
+                        <li>Program plugins which enhance user experiences</li>
+                        <li>Design web pages for the network</li>
+                    </ul>
+                </blockquote>
+            </div>
         </div>
     </div>
 </div>
