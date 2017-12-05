@@ -13,6 +13,8 @@ function isErrorBoxVisible() {
 function shakeErrorBox(content, callback) {
     var errorBox = $("#error-box");
 
+    scrollToElement('error-box');
+
     changeErrorBox(content);
 
     if (!isErrorBoxVisible()) {
@@ -34,17 +36,16 @@ function changeErrorBox(content) {
     errorBoxContent.text(content);
 }
 
-function random(array) {
-    return array[Math.floor(Math.random() * array.length)];
-}
-
 $(function() {
+    FastClick.attach(document.body);
+
     $(".parallax").parallax();
     $(".tooltipped").tooltip({delay: 50});
     $(".modal").modal();
-    $('select').material_select();
     $('.collapsible').collapsible();
     $(".button-collapse").sideNav();
+    $('.slider').slider();
+    $('select').material_select();
     $('.scrollspy').scrollSpy({
         getActiveElement: function(id) {
             return "#nav-item-" + id;
