@@ -314,7 +314,7 @@
 
     <div class="parallax-container">
         <div class="parallax">
-            <img src="assets/image/javascript-code.png" alt="CSS Code">
+            <img src="assets/image/javascript.png" alt="JavaScript Code">
         </div>
     </div>
 
