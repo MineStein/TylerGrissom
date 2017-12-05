@@ -21,376 +21,378 @@
 
 <body>
 
-<div class="navbar navbar-fixed">
-    <nav class="blue-grey darken-4" style="background: linear-gradient(left top, #455a64, #263238);">
-        <div class="container">
-            <div class="nav-wrapper">
-                <a href="#" class="brand-logo">Tyler Grissom</a>
-                <a href="#" data-activates="mobile-navbar" class="button-collapse"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
-                    <li id="nav-item-section-about-me"><a href="#section-about-me" onclick="scrollToElement('section-about-me');">About Me</a></li>
-                    <li id="nav-item-section-services"><a href="#section-services" onclick="scrollToElement('section-services');">Services</a></li>
-                    <li id="nav-item-section-portfolio"><a href="#section-portfolio" onclick="scrollToElement('section-portfolio');">Portfolio</a></li>
-                    <li id="nav-item-section-partners"><a href="#section-partners" onclick="scrollToElement('section-partners');">Partners</a></li>
-                    <li id="nav-item-section-contact"><a href="#section-contact" onclick="scrollToElement('section-contact');">Contact</a></li>
-                </ul>
-                <ul class="side-nav cyan darken-2" id="mobile-navbar">
-                    <li><a href="#" class="white-text" onclick="scrollToElement('section-about-me');">About Me</a></li>
-                    <li><a href="#" class="white-text" onclick="scrollToElement('section-services');">Services</a></li>
-                    <li><a href="#" class="white-text" onclick="scrollToElement('section-portfolio');">Portfolio</a></li>
-                    <li><a href="#" class="white-text" onclick="scrollToElement('section-partners');">Partners</a></li>
-                    <li><a href="#" class="white-text" onclick="scrollToElement('section-contact');">Contact</a></li>
-                </ul>
+<main>
+    <div class="navbar navbar-fixed">
+        <nav class="blue-grey darken-4" style="background: linear-gradient(left top, #455a64, #263238);">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">Tyler Grissom</a>
+                    <a href="#" data-activates="mobile-navbar" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li id="nav-item-section-about-me"><a href="#section-about-me" onclick="scrollToElement('section-about-me');">About Me</a></li>
+                        <li id="nav-item-section-services"><a href="#section-services" onclick="scrollToElement('section-services');">Services</a></li>
+                        <li id="nav-item-section-portfolio"><a href="#section-portfolio" onclick="scrollToElement('section-portfolio');">Portfolio</a></li>
+                        <li id="nav-item-section-partners"><a href="#section-partners" onclick="scrollToElement('section-partners');">Partners</a></li>
+                        <li id="nav-item-section-contact"><a href="#section-contact" onclick="scrollToElement('section-contact');">Contact</a></li>
+                    </ul>
+                    <ul class="side-nav blue-grey darken-4" id="mobile-navbar">
+                        <li><a href="#" class="white-text" onclick="scrollToElement('section-about-me');">About Me</a></li>
+                        <li><a href="#" class="white-text" onclick="scrollToElement('section-services');">Services</a></li>
+                        <li><a href="#" class="white-text" onclick="scrollToElement('section-portfolio');">Portfolio</a></li>
+                        <li><a href="#" class="white-text" onclick="scrollToElement('section-partners');">Partners</a></li>
+                        <li><a href="#" class="white-text" onclick="scrollToElement('section-contact');">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-</div>
-
-<div class="section blue-grey lighten-5 scrollspy" id="section-about-me">
-    <div class="row container">
-      <h2 class="header">Who am I?</h2>
-      <div class="divider"></div>
-      <div style="margin-top: 25px;">
-          <div class="row">
-              <div class="col s12 m4">
-                  <img src="assets/image/tyler-1.jpg" alt="Tyler" style="border-radius: 5px; width: 70%; height: 70%;" class="materialboxed">
-              </div>
-
-              <div class="col s8 m6">
-                  <h5>Hello!</h5>
-                  <p>
-                      My name is Tyler and I am a fifteen year old programmer and web designer from the United States. I primarily code in Java creating
-                      Spigot server plugins and utilizing various web-enabled technologies to craft beautiful, user-friendly sites.
-                      <br><div class="divider"></div><br style="line-height: 50%">
-                      Besides my experience with computers, I have a miniature schnauzer named Maggie and a younger brother named Kaiden. I attend high school where
-                        I am currently a sophomore taking some very interesting classes, some of which include Astronomy and Web Design & Development. I love
-                      hanging out with my friends, going out and doing side-projects related to computers.
-              </div>
-          </div>
-      </div>
+        </nav>
     </div>
-</div>
 
-<div class="parallax-container">
-    <div class="parallax">
-        <img src="assets/image/php-code.png" alt="PHP Code">
-    </div>
-</div>
-
-<div class="section blue-grey lighten-5 scrollspy" id="section-services">
-    <div class="container">
-        <div class="row">
-            <h2 class="header">What services do I offer?</h2>
+    <div class="section blue-grey lighten-5 scrollspy" id="section-about-me">
+        <div class="row container">
+            <h2 class="header">Who am I?</h2>
             <div class="divider"></div>
-            <p>Want to order one of these? Drop me a line <a href="#" onclick="scrollToElement('section-contact');">here</a>.</p>
-        </div>
-
-        <div class="row">
-            <div class="col s12 m6">
-                <div class="card small blue-grey darken-4 white-text z-depth-5">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <a href="#modal-service-spigot" class="modal-trigger"><img src="assets/image/java-code-5.png" alt="Java Code"></a>
+            <div style="margin-top: 25px;">
+                <div class="row">
+                    <div class="col s12 m4">
+                        <img src="assets/image/tyler-1.jpg" alt="Tyler" style="border-radius: 5px; width: 70%; height: 70%;" class="materialboxed">
                     </div>
 
-                    <div class="card-content">
-                        <span class="card-title">Spigot Server Plugin <a href="#modal-service-spigot" class="white-text modal-trigger"><i class="material-icons right">unfold_more</i></a></span>
-                        <p>A made-to-order custom Spigot server plugin.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s12 m6">
-                <div class="card blue-grey darken-4 white-text small z-depth-5">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <a href="#modal-service-bungeecord" class="modal-trigger"><img src="assets/image/java-code-6.png" alt="Java Code"></a>
-                    </div>
-
-                    <div class="card-content">
-                        <span class="card-title">BungeeCord Plugin<a href="#modal-service-bungeecord" class="white-text modal-trigger"><i class="material-icons right">unfold_more</i></a></span>
-                        <p>A plugin designed to run on your proxy server.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col s12 m6">
-                <div class="card small blue-grey darken-4 white-text z-depth-5">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <a href="#modal-service-web-design" class="modal-trigger"><img src="assets/image/css-code.png" alt="CSS Code"></a>
-                    </div>
-
-                    <div class="card-content">
-                        <span class="card-title">Web Design <a href="#modal-service-web-design" class="white-text modal-trigger"><i class="material-icons right">unfold_more</i></a></span>
-                        <p>A custom design for your next big project.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s12 m6">
-                <div class="card small blue-grey darken-4 white-text z-depth-5">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <a href="#modal-service-php" class="modal-trigger"><img src="assets/image/php-code.png" alt="PHP Code"></a>
-                    </div>
-
-                    <div class="card-content">
-                        <span class="card-title">PHP Website<a href="#modal-service-php" class="white-text modal-trigger"><i class="material-icons right">unfold_more</i></a></span>
-                        <p>A completely custom PHP backend for your website.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col s12 m6 offset-m3">
-                <div class="card small blue-grey darken-4 white-text z-depth-5">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <a href="#modal-service-laravel" class="modal-trigger"><img src="assets/image/laravel-code.png" alt="Laravel Code"></a>
-                    </div>
-
-                    <div class="card-content">
-                        <span class="card-title">Laravel Website <a href="#modal-service-laravel" class="white-text modal-trigger"><i class="material-icons right">unfold_more</i></a></span>
-                        <p>A fluid PHP backend powered by Laravel.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col s12">
-                <div class="card light-blue darken-3 white-text">
-                    <div class="card-content">
-                        <h5>Pro Tip</h5>
-                        <p>Need a service that isn't mentioned here? It's likely I can still hook you up! Just submit a request <a href="#" class="white-text" onclick="scrollToElement('section-contact');">here</a>.</p>
+                    <div class="col s8 m6">
+                        <h5>Hello!</h5>
+                        <p>
+                            My name is Tyler and I am a fifteen year old programmer and web designer from the United States. I primarily code in Java creating
+                            Spigot server plugins and utilizing various web-enabled technologies to craft beautiful, user-friendly sites.
+                            <br><div class="divider"></div><br style="line-height: 50%">
+                        Besides my experience with computers, I have a miniature schnauzer named Maggie and a younger brother named Kaiden. I attend high school where
+                        I am currently a sophomore taking some very interesting classes, some of which include Astronomy and Web Design & Development. I love
+                        hanging out with my friends, going out and doing side-projects related to computers.
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="parallax-container">
-    <div class="parallax">
-        <img src="assets/image/java-code-4.png" alt="Java Code">
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="assets/image/php-code.png" alt="PHP Code">
+        </div>
     </div>
-</div>
 
-<div class="section blue-grey lighten-5 scrollspy" id="section-portfolio">
-    <div class="container">
-        <h3 class="header">What have I done in the past?</h3>
-        <div class="divider"></div>
+    <div class="section blue-grey lighten-5 scrollspy" id="section-services">
+        <div class="container">
+            <div class="row">
+                <h2 class="header">What services do I offer?</h2>
+                <div class="divider"></div>
+                <p>Want to order one of these? Drop me a line <a href="#" onclick="scrollToElement('section-contact');">here</a>.</p>
+            </div>
 
-        <p>Obtain a copy of my CV <a href="cv.pdf" target="_blank" download>here</a>.</p>
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card small blue-grey darken-4 white-text z-depth-5">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <a href="#modal-service-spigot" class="modal-trigger"><img src="assets/image/java-code-5.png" alt="Java Code"></a>
+                        </div>
 
-        <div class="row" style="margin-top: 3%;">
-            <ul class="collapsible popout" data-collapsible="accordion">
-                <li>
-                    <div class="collapsible-header">Java Plugins</div>
-                    <div class="collapsible-body white">
-                        <ul class="collection">
-                            <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="An announcements plugin for Spigot servers." href="https://github.com/MineStein/Owlery">Owlery</a></li>
-                            <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="A discovery-based warp system for Spigot servers." href="https://github.com/MineStein/MaraudersMap">MaraudersMap</a></li>
-                            <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="A system for swapping between hats, wands, particles, and more." href="https://github.com/MineStein/RowlingsEffects">RowlingsEffects</a></li>
-                            <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="An anti-WDL plugin with command helpers." href="https://github.com/MineStein/RowlingsProtect">RowlingsProtect</a></li>
+                        <div class="card-content">
+                            <span class="card-title">Spigot Server Plugin <a href="#modal-service-spigot" class="white-text modal-trigger"><i class="material-icons right">unfold_more</i></a></span>
+                            <p>A made-to-order custom Spigot server plugin.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m6">
+                    <div class="card blue-grey darken-4 white-text small z-depth-5">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <a href="#modal-service-bungeecord" class="modal-trigger"><img src="assets/image/java-code-6.png" alt="Java Code"></a>
+                        </div>
+
+                        <div class="card-content">
+                            <span class="card-title">BungeeCord Plugin<a href="#modal-service-bungeecord" class="white-text modal-trigger"><i class="material-icons right">unfold_more</i></a></span>
+                            <p>A plugin designed to run on your proxy server.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card small blue-grey darken-4 white-text z-depth-5">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <a href="#modal-service-web-design" class="modal-trigger"><img src="assets/image/css-code.png" alt="CSS Code"></a>
+                        </div>
+
+                        <div class="card-content">
+                            <span class="card-title">Web Design <a href="#modal-service-web-design" class="white-text modal-trigger"><i class="material-icons right">unfold_more</i></a></span>
+                            <p>A custom design for your next big project.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m6">
+                    <div class="card small blue-grey darken-4 white-text z-depth-5">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <a href="#modal-service-php" class="modal-trigger"><img src="assets/image/php-code.png" alt="PHP Code"></a>
+                        </div>
+
+                        <div class="card-content">
+                            <span class="card-title">PHP Website<a href="#modal-service-php" class="white-text modal-trigger"><i class="material-icons right">unfold_more</i></a></span>
+                            <p>A completely custom PHP backend for your website.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m6 offset-m3">
+                    <div class="card small blue-grey darken-4 white-text z-depth-5">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <a href="#modal-service-laravel" class="modal-trigger"><img src="assets/image/laravel-code.png" alt="Laravel Code"></a>
+                        </div>
+
+                        <div class="card-content">
+                            <span class="card-title">Laravel Website <a href="#modal-service-laravel" class="white-text modal-trigger"><i class="material-icons right">unfold_more</i></a></span>
+                            <p>A fluid PHP backend powered by Laravel.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12">
+                    <div class="card light-blue darken-3 white-text">
+                        <div class="card-content">
+                            <h5>Pro Tip</h5>
+                            <p>Need a service that isn't mentioned here? It's likely I can still hook you up! Just submit a request <a href="#" class="white-text" onclick="scrollToElement('section-contact');">here</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="assets/image/java-code-4.png" alt="Java Code">
+        </div>
+    </div>
+
+    <div class="section blue-grey lighten-5 scrollspy" id="section-portfolio">
+        <div class="container">
+            <h3 class="header">What have I done in the past?</h3>
+            <div class="divider"></div>
+
+            <p>Obtain a copy of my CV <a href="cv.pdf" target="_blank" download>here</a>.</p>
+
+            <div class="row" style="margin-top: 3%;">
+                <ul class="collapsible popout" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header">Java Plugins</div>
+                        <div class="collapsible-body white">
+                            <ul class="collection">
+                                <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="An announcements plugin for Spigot servers." href="https://github.com/MineStein/Owlery">Owlery</a></li>
+                                <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="A discovery-based warp system for Spigot servers." href="https://github.com/MineStein/MaraudersMap">MaraudersMap</a></li>
+                                <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="A system for swapping between hats, wands, particles, and more." href="https://github.com/MineStein/RowlingsEffects">RowlingsEffects</a></li>
+                                <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="An anti-WDL plugin with command helpers." href="https://github.com/MineStein/RowlingsProtect">RowlingsProtect</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header">Laravel</div>
+                        <div class="collapsible-body white">
+                            <ul class="collection">
+                                <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="A blog system based upon the Laracasts tutorial 'Laravel 5.4 from Scratch'." href="https://github.com/MineStein/blog">Blog</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header">Design</div>
+                        <div class="collapsible-body white">
+                            <ul class="collection">
+                                <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="My personal website. You're on it." href="https://github.com/MineStein/TylerGrissom">tyler-g.net</a></li>
+                                <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="My final project for web design class following the very stringent and outdated practices mandated by school." href="https://github.com/MineStein/HTML-CSS-Final-Project">Coffee Shop</a></li>
+                                <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="Re-design commission for Lotus#3014" href="https://github.com/MineStein/OrpheusServices">Orpheus Services</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="assets/image/css-code.png" alt="CSS Code">
+        </div>
+    </div>
+
+    <div class="section blue-grey lighten-5 scrollspy" id="section-partners">
+        <div class="container">
+            <div class="row">
+                <h3 class="header">Who have I worked with?</h3>
+                <div class="divider" style="margin-bottom: 10px;"></div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m3">
+                    <img class="materialboxed" style="border-radius: 5px; width: 250px; height: 250px;" src="assets/image/snake-mc.jpeg" alt=SnakeMC">
+                </div>
+
+                <div class="col s12 m9">
+                    <blockquote style="border-left-color: #01579b">
+                        <h5><a href="http://www.snakemc.com/" target="_blank">SnakeMC</a> 2014</h5>
+                        <p>I worked with SnakeMC for a couple of months where my responsibilities included:</p>
+                        <ul>
+                            <li>Designing user experiences for a multitude of server types</li>
+                            <li>Working as a team</li>
                         </ul>
-                    </div>
-                </li>
-                <li>
-                    <div class="collapsible-header">Laravel</div>
-                    <div class="collapsible-body white">
-                        <ul class="collection">
-                            <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="A blog system based upon the Laracasts tutorial 'Laravel 5.4 from Scratch'." href="https://github.com/MineStein/blog">Blog</a></li>
+                    </blockquote>
+                </div>
+            </div>
+
+            <div class="divider" style="margin-bottom: 20px;"></div>
+
+            <div class="row">
+                <div class="col s12 m3">
+                    <img class="materialboxed" style="border-radius: 5px; width: 250px; height: 250px;" src="assets/image/potterworld.png" alt=PotterworldMC">
+                </div>
+
+                <div class="col s12 m9">
+                    <blockquote style="border-left-color: #01579b">
+                        <h5><a href="http://potterworldmc.com" target="_blank">PotterworldMC</a> 2015</h5>
+                        <p>I worked with PotterworldMC for a brief time as a junior developer. Responsibilities included:</p>
+                        <ul>
+                            <li>Developing smaller-scale plugins which improved overall user experiences</li>
+                            <li>Working as a team. This position gave me a bit more experience in that regard.</li>
                         </ul>
-                    </div>
-                </li>
-                <li>
-                    <div class="collapsible-header">Design</div>
-                    <div class="collapsible-body white">
-                        <ul class="collection">
-                            <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="My personal website. You're on it." href="https://github.com/MineStein/TylerGrissom">tyler-g.net</a></li>
-                            <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="My final project for web design class following the very stringent and outdated practices mandated by school." href="https://github.com/MineStein/HTML-CSS-Final-Project">Coffee Shop</a></li>
-                            <li class="collection-item"><a class="tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="Re-design commission for Lotus#3014" href="https://github.com/MineStein/OrpheusServices">Orpheus Services</a></li>
+                    </blockquote>
+                </div>
+            </div>
+
+            <div class="divider" style="margin-bottom: 20px;"></div>
+
+            <div class="row">
+                <div class="col s12 m3">
+                    <img class="materialboxed" style="border-radius: 5px; width: 250px; height: 250px;" src="assets/image/rowlings-realm.jpg" alt="Rowling's Realm Logo">
+                </div>
+
+                <div class="col s12 m9">
+                    <blockquote style="border-left-color: #01579b">
+                        <h5><a href="http://rowlingsrealm.com" target="_blank">Rowling's Realm</a> May 2017 - August 2017</h5>
+                        <p>I worked with Rowling's Realm as their head of plugin development where I held the following responsibilities:</p>
+                        <ul>
+                            <li>Oversee a team of developers</li>
+                            <li>Design a fully-featured Magic system based on Harry Potter</li>
+                            <li>Delegate jobs to the development team</li>
+                            <li>Manage server files</li>
                         </ul>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<div class="parallax-container">
-    <div class="parallax">
-        <img src="assets/image/css-code.png" alt="CSS Code">
-    </div>
-</div>
-
-<div class="section blue-grey lighten-5 scrollspy" id="section-partners">
-    <div class="container">
-        <div class="row">
-            <h3 class="header">Who have I worked with?</h3>
-            <div class="divider" style="margin-bottom: 10px;"></div>
-        </div>
-
-        <div class="row">
-            <div class="col s12 m3">
-                <img class="materialboxed" style="border-radius: 5px; width: 250px; height: 250px;" src="assets/image/snake-mc.jpeg" alt=SnakeMC">
+                    </blockquote>
+                </div>
             </div>
 
-            <div class="col s12 m9">
-                <blockquote style="border-left-color: #01579b">
-                    <h5><a href="http://www.snakemc.com/" target="_blank">SnakeMC</a> 2014</h5>
-                    <p>I worked with SnakeMC for a couple of months where my responsibilities included:</p>
-                    <ul>
-                        <li>Designing user experiences for a multitude of server types</li>
-                        <li>Working as a team</li>
-                    </ul>
-                </blockquote>
-            </div>
-        </div>
+            <div class="divider" style="margin-bottom: 20px;"></div>
 
-        <div class="divider" style="margin-bottom: 20px;"></div>
+            <div class="row">
+                <div class="col s12 m3">
+                    <img class="materialboxed" style="border-radius: 5px; width: 250px; height: 250px;" src="assets/image/astoria-network.jpg" alt="Astoria Network Logo">
+                </div>
 
-        <div class="row">
-            <div class="col s12 m3">
-                <img class="materialboxed" style="border-radius: 5px; width: 250px; height: 250px;" src="assets/image/potterworld.png" alt=PotterworldMC">
-            </div>
-
-            <div class="col s12 m9">
-                <blockquote style="border-left-color: #01579b">
-                    <h5><a href="http://potterworldmc.com" target="_blank">PotterworldMC</a> 2015</h5>
-                    <p>I worked with PotterworldMC for a brief time as a junior developer. Responsibilities included:</p>
-                    <ul>
-                        <li>Developing smaller-scale plugins which improved overall user experiences</li>
-                        <li>Working as a team. This position gave me a bit more experience in that regard.</li>
-                    </ul>
-                </blockquote>
-            </div>
-        </div>
-
-        <div class="divider" style="margin-bottom: 20px;"></div>
-
-        <div class="row">
-            <div class="col s12 m3">
-                <img class="materialboxed" style="border-radius: 5px; width: 250px; height: 250px;" src="assets/image/rowlings-realm.jpg" alt="Rowling's Realm Logo">
-            </div>
-
-            <div class="col s12 m9">
-                <blockquote style="border-left-color: #01579b">
-                    <h5><a href="http://rowlingsrealm.com" target="_blank">Rowling's Realm</a> May 2017 - August 2017</h5>
-                    <p>I worked with Rowling's Realm as their head of plugin development where I held the following responsibilities:</p>
-                    <ul>
-                        <li>Oversee a team of developers</li>
-                        <li>Design a fully-featured Magic system based on Harry Potter</li>
-                        <li>Delegate jobs to the development team</li>
-                        <li>Manage server files</li>
-                    </ul>
-                </blockquote>
-            </div>
-        </div>
-
-        <div class="divider" style="margin-bottom: 20px;"></div>
-
-        <div class="row">
-            <div class="col s12 m3">
-                <img class="materialboxed" style="border-radius: 5px; width: 250px; height: 250px;" src="assets/image/astoria-network.jpg" alt="Astoria Network Logo">
-            </div>
-
-            <div class="col s12 m9">
-                <blockquote style="border-left-color: #01579b">
-                    <h5><a href="https://peculiar-realm.enjin.com" target="_blank">Astoria Network</a> August 2017 - Present</h5>
-                    <p>I work with Astoria Network as owner of Marauder's Realm and head plugin developer for the network where my responsibilities were as follows:</p>
-                    <ul>
-                        <li>Lead a team of developers</li>
-                        <li>Maintain server files for the network</li>
-                        <li>Program plugins which enhance user experiences</li>
-                        <li>Design web pages for the network</li>
-                    </ul>
-                </blockquote>
+                <div class="col s12 m9">
+                    <blockquote style="border-left-color: #01579b">
+                        <h5><a href="https://peculiar-realm.enjin.com" target="_blank">Astoria Network</a> August 2017 - Present</h5>
+                        <p>I work with Astoria Network as owner of Marauder's Realm and head plugin developer for the network where my responsibilities were as follows:</p>
+                        <ul>
+                            <li>Lead a team of developers</li>
+                            <li>Maintain server files for the network</li>
+                            <li>Program plugins which enhance user experiences</li>
+                            <li>Design web pages for the network</li>
+                        </ul>
+                    </blockquote>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="parallax-container">
-    <div class="parallax">
-        <img src="assets/image/javascript-code.png" alt="CSS Code">
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="assets/image/javascript-code.png" alt="CSS Code">
+        </div>
     </div>
-</div>
 
-<div class="section blue-grey lighten-5 scrollspy" id="section-contact">
-    <div class="row container">
-        <div class="card red white-text" id="error-box">
-            <div class="card-content">
-                <p>Uh oh!</p>
+    <div class="section blue-grey lighten-5 scrollspy" id="section-contact">
+        <div class="row container">
+            <div class="card red white-text" id="error-box">
+                <div class="card-content">
+                    <p>Uh oh!</p>
+                </div>
+            </div>
+
+            <h3 class="header">How do we get in touch?</h3>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="col s12 m8">
+                    <form id="form-contact" method="post" action="assets/secret/send-contact.php" style="margin-top: 10px;">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input placeholder="John" name="first_name" id="first_name" type="text" class="validate">
+                                <label for="first_name">First Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input placeholder="Doe" id="last_name" name="last_name" type="text" class="validate">
+                                <label for="last_name">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input placeholder="john.doe@example.com" id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <select id="need">
+                                    <option value="choose" disabled selected>Choose an option</option>
+                                    <optgroup label="Service Estimate">
+                                        <option value="service-plugin">Minecraft Server Plugin</option>
+                                        <option value="service-website">Website</option>
+                                        <option value="service-other">Other Project</option>
+                                    </optgroup>
+                                    <optgroup label="Other">
+                                        <option value="other-partnership">Partnership</option>
+                                        <option value="other-offer">Job Offer</option>
+                                        <option value="other-inquiry">General Inquiry</option>
+                                    </optgroup>
+                                </select>
+                                <label for="need">What do you need?</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea placeholder="Describe what you need in as much detail as possible." id="description" name="description" class="materialize-textarea"></textarea>
+                                <label for="description">Description</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12 m6 g-recaptcha" data-sitekey="6Ld3fzkUAAAAAMtobohuy_-dMRWnWq5tWv_9-50-"></div>
+                            <div class="input-field col s12 m6">
+                                <button id="form-submit" type="submit" class="btn blue">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col m4" style="margin-top: 10px;">
+                    <h4>Other</h4>
+                    <div class="divider"></div><br>
+                    <a href="http://twitter.com/grisstyl" class="btn light-blue darken-3 z-depth-2 no-text-transform social-button tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="@grisstyl">Twitter</a><br><br>
+                    <a href="#" class="btn light-blue darken-3 z-depth-2 no-text-transform tooltipped" data-position="right" data-delay="50" data-tooltip="Tyler#6978" onclick="return false">Discord</a><br><br>
+                    <a href="http://snapchat.com/add/tylerrulesall" target="_blank" class="btn light-blue darken-3 z-depth-2 no-text-transform tooltipped" data-position="right" data-delay="50" data-tooltip="tylerrulesall">Snapchat</a><br><br>
+                    <a href="https://github.com/MineStein" class="btn light-blue darken-3 z-depth-2 no-text-transform tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="MineStein">GitHub</a><br><br>
+                    <a href="https://www.spigotmc.org/members/minestein.21431/" class="btn light-blue darken-3 z-depth-2 no-text-transform tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="MineStein">SpigotMC</a>
+                </div>
             </div>
         </div>
-
-        <h3 class="header">How do we get in touch?</h3>
-        <div class="divider"></div>
-        <div class="row">
-          <div class="col s12 m8">
-              <form id="form-contact" method="post" action="assets/secret/send-contact.php" style="margin-top: 10px;">
-                  <div class="row">
-                      <div class="input-field col s6">
-                          <input placeholder="John" name="first_name" id="first_name" type="text" class="validate">
-                          <label for="first_name">First Name</label>
-                      </div>
-                      <div class="input-field col s6">
-                          <input placeholder="Doe" id="last_name" name="last_name" type="text" class="validate">
-                          <label for="last_name">Last Name</label>
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="input-field col s12">
-                          <input placeholder="john.doe@example.com" id="email" type="email" class="validate">
-                          <label for="email">Email</label>
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="input-field col s12">
-                          <select id="need">
-                              <option value="choose" disabled selected>Choose an option</option>
-                              <optgroup label="Service Estimate">
-                                  <option value="service-plugin">Minecraft Server Plugin</option>
-                                  <option value="service-website">Website</option>
-                                  <option value="service-other">Other Project</option>
-                              </optgroup>
-                              <optgroup label="Other">
-                                  <option value="other-partnership">Partnership</option>
-                                  <option value="other-offer">Job Offer</option>
-                                  <option value="other-inquiry">General Inquiry</option>
-                              </optgroup>
-                          </select>
-                          <label for="need">What do you need?</label>
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="input-field col s12">
-                          <textarea placeholder="Describe what you need in as much detail as possible." id="description" name="description" class="materialize-textarea"></textarea>
-                          <label for="description">Description</label>
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="col s12 m6 g-recaptcha" data-sitekey="6Ld3fzkUAAAAAMtobohuy_-dMRWnWq5tWv_9-50-"></div>
-                      <div class="input-field col s12 m6">
-                          <button id="form-submit" type="submit" class="btn blue">Send</button>
-                      </div>
-                  </div>
-              </form>
-          </div>
-
-          <div class="col m4" style="margin-top: 10px;">
-              <h4>Other</h4>
-              <div class="divider"></div><br>
-              <a href="http://twitter.com/grisstyl" class="btn light-blue darken-3 z-depth-2 no-text-transform social-button tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="@grisstyl">Twitter</a><br><br>
-              <a href="#" class="btn light-blue darken-3 z-depth-2 no-text-transform tooltipped" data-position="right" data-delay="50" data-tooltip="Tyler#6978" onclick="return false">Discord</a><br><br>
-              <a href="http://snapchat.com/add/tylerrulesall" target="_blank" class="btn light-blue darken-3 z-depth-2 no-text-transform tooltipped" data-position="right" data-delay="50" data-tooltip="tylerrulesall">Snapchat</a><br><br>
-              <a href="https://github.com/MineStein" class="btn light-blue darken-3 z-depth-2 no-text-transform tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="MineStein">GitHub</a><br><br>
-              <a href="https://www.spigotmc.org/members/minestein.21431/" class="btn light-blue darken-3 z-depth-2 no-text-transform tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="MineStein">SpigotMC</a>
-          </div>
-        </div>
     </div>
-</div>
+</main>
 
 <footer class="page-footer blue-grey darken-4" style="background: linear-gradient(left top, #455a64, #263238);">
     <div class="container">
