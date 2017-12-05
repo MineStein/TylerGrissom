@@ -357,7 +357,7 @@
 <!-- Tap Target Structure -->
 <div class="tap-target white black-text" data-activates="menu">
     <div class="tap-target-content">
-        <h5>made with <span class="pink-text text-darken-2"><i class="material-icons">favorite</i></span> by tyler grissom</h5>
+        <h5><a href="http://github.com/MineStein/TylerGrissom" target="_blank">site</a> made with <span class="pink-text text-darken-2"><i class="material-icons">favorite</i></span> by tyler grissom</h5>
     </div>
 </div>
 
