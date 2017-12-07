@@ -234,7 +234,7 @@
 
             <div class="row">
                 <div class="col s12 m3">
-                    <img class="materialboxed" style="border-radius: 5px; width: 250px; height: 250px;" src="assets/image/snake-mc.jpeg" alt=SnakeMC">
+                    <img class="materialboxed" style="border-radius: 5px; width: 250px; height: 250px;" src="assets/image/snake-mc.jpeg" alt="SnakeMC">
                 </div>
 
                 <div class="col s12 m9">
@@ -253,7 +253,7 @@
 
             <div class="row">
                 <div class="col s12 m3">
-                    <img class="materialboxed" style="border-radius: 5px; width: 250px; height: 250px;" src="assets/image/potterworld.png" alt=PotterworldMC">
+                    <img class="materialboxed" style="border-radius: 5px; width: 250px; height: 250px;" src="assets/image/potterworld.png" alt="PotterworldMC">
                 </div>
 
                 <div class="col s12 m9">
@@ -579,12 +579,12 @@
     </div>
 </div>
 
-<script rel="script" type="text/javascript" src="assets/script/jquery-3.2.1.min.js"></script>
-<script rel="script" type="text/javascript" src="assets/script/materialize.min.js"></script>
-<script rel="script" type="text/javascript" src='https://www.google.com/recaptcha/api.js'></script>
-<script rel="script" type="text/javascript" src="assets/script/app.js"></script>
-<script rel="script" type="text/javascript" src="assets/script/fastclick.js"></script>
-<script rel="script" type="text/javascript" src="assets/script/battleforthenet.js" async></script>
+<script rel="script"  src="assets/script/jquery-3.2.1.min.js"></script>
+<script rel="script"  src="assets/script/materialize.min.js"></script>
+<script rel="script"  src='https://www.google.com/recaptcha/api.js'></script>
+<script rel="script"  src="assets/script/app.js"></script>
+<script rel="script"  src="assets/script/fastclick.js"></script>
+<script rel="script"  src="assets/script/battleforthenet.js" async></script>
 
 </body>
 </html>
