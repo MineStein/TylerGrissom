@@ -331,25 +331,29 @@
             <div class="divider"></div>
             <div class="row">
                 <div class="col s12 m8">
+                  <p>Have an idea you'd like to turn into a reality? Need a consultation? Either way, I'd love to hear from you!</p>
                     <form id="form-contact" method="post" action="assets/secret/send-contact.php" style="margin-top: 10px;">
                         <div class="row">
                             <div class="input-field col s6">
-                                <input placeholder="John" name="first_name" id="first_name" type="text" class="validate">
+                                <i class="material-icons prefix">person_outline</i>
+                                <input validate name="first_name" id="first_name" type="text" class="validate">
                                 <label for="first_name">First Name</label>
                             </div>
                             <div class="input-field col s6">
-                                <input placeholder="Doe" id="last_name" name="last_name" type="text" class="validate">
+                                <input validate id="last_name" name="last_name" type="text" class="validate">
                                 <label for="last_name">Last Name</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <input placeholder="john.doe@example.com" id="email" type="email" class="validate">
+                                <i class="material-icons prefix">email</i>
+                                <input validate id="email" type="email" class="validate">
                                 <label for="email">Email</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
+                                <i class="material-icons prefix">playlist_add</i>
                                 <select id="need">
                                     <option value="choose" disabled selected>Choose an option</option>
                                     <optgroup label="Service Estimate">
@@ -368,7 +372,8 @@
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <textarea placeholder="Describe what you need in as much detail as possible." id="description" name="description" class="materialize-textarea"></textarea>
+                                <i class="material-icons prefix">mode_edit</i>
+                                <textarea validate placeholder="Describe what you need in as much detail as possible." id="description" name="description" class="materialize-textarea"></textarea>
                                 <label for="description">Description</label>
                             </div>
                         </div>
@@ -447,7 +452,7 @@
 
         <div class="row">
             <div class="col s12">
-                <div class="card orange darken-1 white-text">
+                <div class="card blue-grey darken-4 white-text">
                     <div class="card-content">
                         <h5>Interested in purchasing?</h5>
                         <p>You can order this service by filling out the contact form below.</p>
@@ -472,7 +477,7 @@
 
         <div class="row">
             <div class="col s12">
-                <div class="card pink darken-1 white-text">
+                <div class="card blue-grey darken-4 white-text">
                     <div class="card-content">
                         <h5>Interested in purchasing?</h5>
                         <p>You can order this service by filling out the contact form below.</p>
@@ -497,7 +502,7 @@
 
         <div class="row">
             <div class="col s12">
-                <div class="card blue white-text">
+                <div class="card blue-grey darken-4 white-text">
                     <div class="card-content">
                         <h5>Interested in purchasing?</h5>
                         <p>You can order this service by filling out the contact form below.</p>
@@ -522,7 +527,7 @@
 
         <div class="row">
             <div class="col s12">
-                <div class="card purple white-text">
+                <div class="card blue-grey darken-4 white-text">
                     <div class="card-content">
                         <h5>Interested in purchasing?</h5>
                         <p>You can order this service by filling out the contact form below.</p>
@@ -547,7 +552,7 @@
 
         <div class="row">
             <div class="col s12">
-                <div class="card yellow black-text">
+                <div class="card blue-grey darken-4 white-text">
                     <div class="card-content">
                         <h5>Interested in purchasing?</h5>
                         <p>You can order this service by filling out the contact form below.</p>
