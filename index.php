@@ -378,9 +378,9 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col s12 m6 g-recaptcha" data-sitekey="6Ld3fzkUAAAAAMtobohuy_-dMRWnWq5tWv_9-50-"></div>
+                            <div class="col s12 m5 g-recaptcha" data-sitekey="6Ld3fzkUAAAAAMtobohuy_-dMRWnWq5tWv_9-50-"></div>
                             <div class="input-field col s12 m6">
-                                <button id="form-submit" type="submit" class="btn blue">Send</button>
+                                <button id="form-submit" type="submit" class="btn blue">Contact</button>
                             </div>
                         </div>
                     </form>
