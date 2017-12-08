@@ -239,7 +239,7 @@
                 </div>
 
                 <div class="col s12 m9">
-                    <blockquote style="border-left-color: #01579b">
+                    <blockquote>
                         <h5><a href="http://www.snakemc.com/" target="_blank">SnakeMC</a> 2014</h5>
                         <p>I worked with SnakeMC for a couple of months where my responsibilities included:</p>
                         <ul>
@@ -258,7 +258,7 @@
                 </div>
 
                 <div class="col s12 m9">
-                    <blockquote style="border-left-color: #01579b">
+                    <blockquote >
                         <h5><a href="http://potterworldmc.com" target="_blank">PotterworldMC</a> 2015</h5>
                         <p>I worked with PotterworldMC for a brief time as a junior developer. Responsibilities included:</p>
                         <ul>
@@ -277,7 +277,7 @@
                 </div>
 
                 <div class="col s12 m9">
-                    <blockquote style="border-left-color: #01579b">
+                    <blockquote >
                         <h5><a href="http://rowlingsrealm.com" target="_blank">Rowling's Realm</a> May 2017 - August 2017</h5>
                         <p>I worked with Rowling's Realm as their head of plugin development where I held the following responsibilities:</p>
                         <ul>
@@ -298,7 +298,7 @@
                 </div>
 
                 <div class="col s12 m9">
-                    <blockquote style="border-left-color: #01579b">
+                    <blockquote >
                         <h5><a href="https://peculiar-realm.enjin.com" target="_blank">Astoria Network</a> August 2017 - Present</h5>
                         <p>I work with Astoria Network as owner of Marauder's Realm and head plugin developer for the network where my responsibilities were as follows:</p>
                         <ul>
@@ -380,7 +380,7 @@
                         <div class="row">
                             <div class="col s12 m5 g-recaptcha" data-sitekey="6Ld3fzkUAAAAAMtobohuy_-dMRWnWq5tWv_9-50-"></div>
                             <div class="input-field col s12 m6">
-                                <button id="form-submit" type="submit" class="btn blue">Contact</button>
+                                <button id="form-submit" type="submit" class="btn blue-grey darken-4 btn-large">Contact</button>
                             </div>
                         </div>
                     </form>

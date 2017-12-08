@@ -1,5 +1,5 @@
 .no-text-transform {
-  text-transform: none; }
+  text-transform: none !important; }
 
 blockquote {
   padding-top: 30px;
