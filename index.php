@@ -8,7 +8,6 @@
     <link rel="stylesheet" type="text/css" href="assets/style/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/style/css/materialize.css">
     <link rel="stylesheet" type="text/css" href="assets/style/css/animate.css">
-    <link href="https://use.fontawesome.com/releases/v5.0.0/css/all.css" rel="stylesheet">
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
@@ -389,7 +388,7 @@
                 <div class="col m4" style="margin-top: 10px;">
                     <h4>Other</h4>
                     <div class="divider"></div><br>
-                    <a href="http://twitter.com/grisstyl" class="btn light-blue darken-3 z-depth-2 no-text-transform social-button tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="@grisstyl"><i class="fas fa-twitter"></i> Twitter</a><br><br>
+                    <a href="http://twitter.com/grisstyl" class="btn light-blue darken-3 z-depth-2 no-text-transform social-button tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="@grisstyl">Twitter</a><br><br>
                     <a href="#" class="btn light-blue darken-3 z-depth-2 no-text-transform tooltipped" data-position="right" data-delay="50" data-tooltip="Tyler#6978" onclick="return false">Discord</a><br><br>
                     <a href="http://snapchat.com/add/tylerrulesall" target="_blank" class="btn light-blue darken-3 z-depth-2 no-text-transform tooltipped" data-position="right" data-delay="50" data-tooltip="tylerrulesall">Snapchat</a><br><br>
                     <a href="https://github.com/MineStein" class="btn light-blue darken-3 z-depth-2 no-text-transform tooltipped" target="_blank" data-position="right" data-delay="50" data-tooltip="MineStein">GitHub</a><br><br>
